@@ -204,16 +204,13 @@ border-color: #9ad3f4
   .nav-item{
     color: #707070;
     text-decoration: none;
-    transition: 0.2s ease-in;
+    transition:color 0.2s ease-in;
     padding-right: 1rem;
   }
 
   .nav-item:hover, .nav-item:focus{
-    color:white;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    background-color: #9ad3f4
-
+    color:#9ad3f4;
+    background-color: white;
 
   }
     /* Styling for Product Listing */
