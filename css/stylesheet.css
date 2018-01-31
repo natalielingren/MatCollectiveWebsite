@@ -190,10 +190,14 @@ border-color: #9ad3f4
 
   /* Styling for Main Navigation */
 
+  .main-nav{
+    text-align: right;
+  }
   .nav-item{
     color: #707070;
     text-decoration: none;
     transition: 0.2s ease-in;
+    padding-right: 1rem;
   }
 
   .nav-item:hover, .nav-item:focus{
