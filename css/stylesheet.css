@@ -209,11 +209,8 @@ border-color: #9ad3f4
   }
 
   .nav-item:hover, .nav-item:focus{
-    color:white;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    background-color: #9ad3f4
-
+    color:#9ad3f4;
+    background-color: white;
 
   }
     /* Styling for Product Listing */
