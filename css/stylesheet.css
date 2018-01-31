@@ -48,11 +48,12 @@ section code {
 /* Styling for the navigation button */
 .button-nav {
   display: inline-block;
-  padding: 0.5em 0.75em;
+  padding: 0.25em 0.75em;
   background-color: #9ad3f4;
   color:white;
+  border: solid;
   border-radius: 0.25em;
-  text-decoration: none;
+  border text-decoration: none;
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
@@ -80,33 +81,39 @@ section code {
 
 /* Styling for Submit Button */
 .submitbutton{
-  border: none;
-  border-radius: 0.6rem;
+
   display: inline-block;
-  padding: 0.5rem;
-  color: white;
+  padding: 0.4rem;
   background-color: #9ad3f4;
+  color:white;
+  border: solid;
+  border-radius: 0.5em;
+  border text-decoration: none;
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
+
 }
 
 .submitbutton:hover, .submitbutton:focus{
   color:#9ad3f4;
   background-color: white;
   border-color: #9ad3f4;
-  border-width: 0.1rem;
-  border-style: solid;
+  border-width: 0.05rem;
+  border: solid;
+
+
 }
 
 /* Styling for Reset Button */
 
 .resetbutton{
-  border: none;
-  border-radius: 0.6rem;
   display: inline-block;
-  padding: 0.5rem;
-  color: white;
+  padding: 0.4rem;
   background-color: #9ad3f4;
+  color:white;
+  border: solid;
+  border-radius: 0.5em;
+  border text-decoration: none;
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
@@ -115,8 +122,9 @@ section code {
   color:#9ad3f4;
   background-color: white;
   border-color: #9ad3f4;
-  border-width: 0.1rem;
-  border-style: solid;
+  border-width: 0.05rem;
+  border: solid;
+
 }
 
 /* Styling for Text Input Field */
@@ -237,23 +245,25 @@ img{
     /* Styling for Colour Sample */
 
     .colour-box{
-
     }
 
     .box1{
       background: #9ad3f4;
       color: white;
       padding: 2rem;
+      margin: 2rem;
     }
 
     .box2{
       background: #e0b8b8;
       color: white;
         padding: 2rem;
+          margin: 2rem;
     }
 
     .box3{
       background: #7fcc6a;
       color: white;
         padding: 2rem;
+          margin: 2rem;
     }
