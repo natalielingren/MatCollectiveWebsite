@@ -206,11 +206,13 @@ border-color: #9ad3f4
     text-decoration: none;
     transition:color 0.2s ease-in;
     padding-right: 1rem;
+
   }
 
   .nav-item:hover, .nav-item:focus{
     color:#9ad3f4;
     background-color: white;
+  
 
   }
     /* Styling for Product Listing */
