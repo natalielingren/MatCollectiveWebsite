@@ -188,6 +188,10 @@ border-color: #9ad3f4
     padding-right: 1rem;
   }
 
+  .current-item{
+    font-weight: 500;
+  }
+
   .nav-item:hover, .nav-item:focus{
     color:#9ad3f4;
 
