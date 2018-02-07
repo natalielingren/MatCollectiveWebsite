@@ -29,9 +29,8 @@ a{
 nav a:hover, nav a:focus {
   text-decoration: none;
   color:white;
-  padding: 0.5rem;
-  border-radius: 0.5rem;
-  background-color: #9ad3f4
+
+
 }
 
 section code {
@@ -54,8 +53,9 @@ section code {
   border: solid;
   border-radius: 0.25em;
   border text-decoration: none;
-  -webkit-transition: background-color 0.5s ease-out;
-  transition: background-color 0.5s ease-out;
+  -webkit-transition: 0.8s ease-in;
+  transition: background-color 0.5s ease-in;
+  transition: border 1s ease-out;
 }
 
 .button-nav:hover, .button-nav:focus {
@@ -204,15 +204,14 @@ border-color: #9ad3f4
   .nav-item{
     color: #707070;
     text-decoration: none;
+    font-style: italic;
     transition: 0.2s ease-in;
     padding-right: 1rem;
   }
 
   .nav-item:hover, .nav-item:focus{
-    color:white;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    background-color: #9ad3f4
+    color:#9ad3f4;
+
 
 
   }
