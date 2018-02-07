@@ -1,3 +1,88 @@
+/* https://codepen.io/oknoblich/pen/tfjFl -- code help for tabs */
+
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  margin-top: 5rem;
+  min-width: 30rem;
+  max-width: 50rem;
+  padding: 1rem;
+  background: white;
+
+}
+
+section {
+  display: none;
+  padding: 20px 0 0;
+  border-top: 1px solid #ddd;
+}
+
+input {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  margin: 0 0 -0.001rem;
+  padding: 0.25rem 0.5rem;
+  font-weight: 600;
+  text-align: center;
+  color: #bbb;
+  border: 0.001rem solid transparent;
+
+}
+
+label:before {
+margin-right: 0.5rem;
+}
+
+
+label:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+input:checked + label {
+  color: #bbb;
+  border: 0.15rem solid #9b9ea3;
+  border-top: 0.15rem solid #9b9ea3;
+  border-bottom: 0.15rem solid #fff;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4 {
+  display: block;
+}
+
+/* @media screen and (max-width: 50rem) {
+  label {
+    font-size: 0;
+  }
+  label:before {
+    margin: 0;
+    font-size: 6rem;
+  }
+}
+
+@media screen and (max-width: 40rem) {
+  label {
+    padding: 0.5rem;
+  } */
+
+
+
+
+
+
+
+
 
 body {
   font-family: 'Open Sans', Verdana, sans-serif;
