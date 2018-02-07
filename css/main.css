@@ -137,7 +137,7 @@ border-color: #9ad3f4
   /* Styling for Headings */
     /* Styling for Heading 1 */
     h1{
-      font-weight: 700;
+      font-weight: 500;
       color: #444444;
 
 
@@ -146,7 +146,7 @@ border-color: #9ad3f4
 
       h2{
 
-        font-weight: 500;
+        font-weight: 300;
         color:#707070;
 
       }
@@ -216,7 +216,7 @@ flex: 2 1 10rem;
 
   }
   .nav-item:hover, .nav-item:focus{
-    color:#3a8bbc;
+    color:#30adf9;
     text-shadow: 1px 1px 2px rgba(50,50,50,0.2);
 
 
