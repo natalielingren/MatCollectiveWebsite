@@ -1,0 +1,281 @@
+
+body {
+  font-family: 'Open Sans', Verdana, sans-serif;
+
+  font-weight: 300;
+
+
+}
+.page-content{
+  padding: 0 3rem 3rem 3rem;
+}
+
+
+a{
+  text-decoration: none;
+  color:#707070;
+  padding-bottom: 1rem;
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+  color:white;
+
+
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+  display: block;
+}
+.button-nav {
+  display: inline-block;
+  padding: 0.25em 0.75em;
+  background-color: #9ad3f4;
+  color:white;
+  border: solid;
+  border-radius: 0.25em;
+  border text-decoration: none;
+  -webkit-transition: 0.8s ease-in;
+  transition: background-color 0.5s ease-in;
+  transition: border 1s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: white;
+  color: #9ad3f4;
+  border:solid;
+  border-color: #9ad3f4;
+}
+
+/* Styling for In-Text-Link */
+.in-text-link, .in-text-link:link{
+  color: #63676d;
+  text-decoration:none;
+}
+
+.in-text-link:hover, .in-text-link:focus{
+  color:#9ad3f4;
+  text-decoration: underline;
+  transition: text-decoration 0.5s ease-out;
+  transition: color 0.5s ease-out;
+  text-decoration: none;
+}
+
+/* Styling for Submit Button */
+.submitbutton{
+
+  display: inline-block;
+  padding: 0.4rem;
+  background-color: #9ad3f4;
+  color:white;
+  border: solid;
+  border-radius: 0.5em;
+  border text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+
+}
+
+.submitbutton:hover, .submitbutton:focus{
+  color:#9ad3f4;
+  background-color: white;
+  border-color: #9ad3f4;
+  border-width: 0.05rem;
+  border: solid;
+
+
+}
+
+/* Styling for Reset Button */
+
+.resetbutton{
+  display: inline-block;
+  padding: 0.4rem;
+  background-color: #9ad3f4;
+  color:white;
+  border: solid;
+  border-radius: 0.5em;
+  border text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.resetbutton:hover, .resetbutton:focus{
+  color:#9ad3f4;
+  background-color: white;
+  border-color: #9ad3f4;
+  border-width: 0.05rem;
+  border: solid;
+
+}
+
+/* Styling for Text Input Field */
+
+.text-input-field{
+padding: 0.2rem;
+outline: none;
+border-width: 0.075rem;
+border-color: grey;
+border-style: solid;
+-webkit-transition: border-color 0.5s ease-out;
+transition: border-color 0.5s ease-out;
+
+}
+
+.text-input-field:focus{
+padding: 0.2rem;
+transition: 0.5s ease-in;
+border-color: #9ad3f4
+}
+
+
+/*
+  TEXT ELEMENTS -------------------
+
+  /* Styling for Headings */
+    /* Styling for Heading 1 */
+    h1{
+      font-weight: 500;
+      color: #444444;
+      margin-bottom: 0;
+
+
+    }
+      /* Styling for Heading 2 */
+
+      h2{
+
+        font-weight: 300;
+        color:#707070;
+        margin-top: 0.3rem;
+
+      }
+        /* Styling for Heading 3 */
+
+        h3{
+          font-weight: 400;
+          color: #444444;
+        }
+
+  /* Styling for Paragraphs */
+
+  p{
+    font-weight: 300;
+  }
+
+    /* Styling for Bulleted Lists */
+
+    .bulleted-lists{
+      font-weight: 300;
+    }
+
+  /* Styling for Numbered Lists */
+
+  .numbered-lists{
+    font-weight: 300;
+  }
+
+
+
+/*
+  COMBINED ELEMENTS -------------------
+
+  /* Styling for Main Navigation */
+
+  .main-nav{
+
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  .nav-item{
+    color: #707070;
+    text-decoration: none;
+    font-style: italic;
+    transition: 0.2s ease-in;
+    padding-right: 1rem;
+    flex: 1 1 1rem;
+
+  }
+
+  .current-item{
+    font-weight: 500;
+    color: #30adf9;
+  }
+.header{
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  background-color: rgba(255,255,255,0.7);
+
+}
+  .logo{
+max-width: 4.5rem;
+flex: 2 1 10rem;
+
+  }
+  .nav-item:hover, .nav-item:focus{
+    color:#30adf9;
+    text-shadow: 1px 1px 2px rgba(50,50,50,0.2);
+
+
+
+  }
+    /* Styling for Product Listing */
+
+    .product-listing{
+      display: flex;
+    }
+img{
+  width: 100%;
+}
+    .product-image{
+      flex: 1 1 40rem;
+      max-width: 700rem;
+    }
+
+    .product-group{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .product-description{
+      padding: 0.75rem;
+      max-width: 40rem;
+      font-weight: 300;
+    }
+
+    .product-description h3{
+      margin-top: 0rem;
+
+    }
+
+    /* Styling for Colour Sample */
+
+    .colour-box{
+    }
+
+    .box1{
+      background: #9ad3f4;
+      color: white;
+      padding: 2rem;
+      margin: 2rem;
+    }
+
+    .box2{
+      background: #e0b8b8;
+      color: white;
+        padding: 2rem;
+          margin: 2rem;
+    }
+
+    .box3{
+      background: #7fcc6a;
+      color: white;
+        padding: 2rem;
+          margin: 2rem;
+    }
