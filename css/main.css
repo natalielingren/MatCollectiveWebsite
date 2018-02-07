@@ -139,6 +139,7 @@ border-color: #9ad3f4
     h1{
       font-weight: 500;
       color: #444444;
+      margin-bottom: 0;
 
 
     }
@@ -148,6 +149,7 @@ border-color: #9ad3f4
 
         font-weight: 300;
         color:#707070;
+        margin-top: 0.3rem;
 
       }
         /* Styling for Heading 3 */
