@@ -13,13 +13,13 @@ body {
 
 a{
   text-decoration: none;
-  color:#707070;
+  /* color:#707070; */
   padding-bottom: 1rem;
 }
 
 nav a:hover, nav a:focus {
   text-decoration: none;
-  color:white;
+  /* color:white; */
 
 
 }
@@ -30,6 +30,7 @@ section code {
   display: block;
 }
 .button-nav {
+
   display: inline-block;
   padding: 0.25em 0.75em;
   background-color: #9ad3f4;
@@ -190,6 +191,10 @@ border-color: #9ad3f4
     display: inline-block;
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    /* overflow: hidden; */
   }
   .nav-item{
     color: #707070;
@@ -200,7 +205,62 @@ border-color: #9ad3f4
     flex: 1 1 1rem;
 
   }
+  button{
+    color: #707070;
+    text-decoration: none;
+    font-style: italic;
+    transition: 0.2s ease-in;
+    padding-right: 1rem;
+    flex: 1 1 1rem;
+    border: none;
+    outline: none;
+    font-family: 'Open Sans';
+    background-color: white;
+    font-weight: 300;
+  }
+  .dropdown {
+    /* float: left; */
+    display: inline-block;
+    overflow: hidden;
+}
 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 10rem;
+    z-index: 1;
+    font-family: 'open sans';
+    font-weight: 300;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #707070;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.down{
+  font-style: none;
+}
+
+
+.drop-item:hover,.drop-item:focus{
+  color: #30adf9;
+}
+
+.drop-item:nth-child(even){
+  background-color: rgb(240,240,240);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_dropdown_navbar */
   .current-item{
     font-weight: 500;
     color: #30adf9;
