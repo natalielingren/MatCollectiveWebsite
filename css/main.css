@@ -1,11 +1,11 @@
 /* https://codepen.io/oknoblich/pen/tfjFl -- code help for tabs */
 
-
+/* 
 *, *:before, *:after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 main {
   margin-top: 5rem;
