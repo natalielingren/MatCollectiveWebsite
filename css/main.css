@@ -1,6 +1,6 @@
 /* https://codepen.io/oknoblich/pen/tfjFl -- code help for tabs */
 
-/* 
+/*
 *, *:before, *:after {
   margin: 0;
   padding: 0;
@@ -295,13 +295,15 @@ border-color: #9ad3f4
     text-decoration: none;
     font-style: italic;
     transition: 0.2s ease-in;
-    padding-right: 1rem;
+    /* padding-right: 1rem; */
     flex: 1 1 1rem;
     border: none;
     outline: none;
     font-family: 'Open Sans';
     background-color: white;
     font-weight: 300;
+
+
   }
   .dropdown {
     /* float: left; */
@@ -342,6 +344,11 @@ border-color: #9ad3f4
 
 .dropdown:hover .dropdown-content {
     display: block;
+
+}
+
+.dropdown:hover .drop-button{
+    color: #30adf9;
 }
 
 
@@ -364,7 +371,7 @@ flex: 2 1 10rem;
   }
   .nav-item:hover, .nav-item:focus{
     color:#30adf9;
-    text-shadow: 1px 1px 2px rgba(50,50,50,0.2);
+    text-shadow: 0.5px 0.5px 2px  rgba(50,50,50,0.2);
 
 
 
