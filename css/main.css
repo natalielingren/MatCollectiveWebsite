@@ -195,6 +195,12 @@ section code {
   margin-left: 20rem;
 }
 
+.home-img{
+  width: 40%;
+  padding-top: 2rem;
+
+}
+
 .resetbutton:hover, .resetbutton:focus{
   color:#9ad3f4;
   background-color: white;
