@@ -192,6 +192,7 @@ section code {
   border text-decoration: none;
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
+  margin-left: 20rem;
 }
 
 .resetbutton:hover, .resetbutton:focus{
