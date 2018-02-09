@@ -44,3 +44,23 @@ label{
 .page-content{
   padding: 0 1.5rem 1.5rem 1.5rem;
 }
+
+
+.flex-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.flex-image{
+  flex: 1 1 10rem;
+  height: 100%;
+  max-width:40rem;
+}
+
+.flex-text{
+  flex: 1 1 17rem;
+  max-width: 35rem;
+  padding: 1rem;
+}
