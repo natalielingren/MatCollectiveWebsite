@@ -11,65 +11,75 @@
 </head>
 <body>
 
-<div class="header">
-  <img src="img/mat-col.svg" class="logo" alt="Mat Collective logo">
+  <div class="header">
+    <img src="img/mat-col.svg" class="logo" alt="Mat Collective logo">
 
-  <nav class="main-nav">
-    <a class="nav-item current-item"> Our Story</a>
-    <a class="nav-item" href="mat-rentals.html"> Mat Rentals</a>
-    <div class="dropdown">
-      <button class="drop-button">
-    <a class="nav-item drop-button" href="yoga-classes.html"> Yoga Classes v</a>
-  </button>
-  <div class="dropdown-content">
-    <a href="class-information.html" class="drop-item">Class Information</a>
-    <a href="class-schedules.html" class="drop-item">Class Schedules</a>
+    <nav class="main-nav">
+      <a class="nav-item current-item"> Our Story</a>
+      <a class="nav-item" href="mat-rentals.html"> Mat Rentals</a>
+      <div class="dropdown">
+        <button class="drop-button">
+          <a class="nav-item drop-button" href="yoga-classes.html"> Yoga Classes v</a>
+        </button>
+        <div class="dropdown-content">
+          <a href="class-information.html" class="drop-item">Class Information</a>
+          <a href="class-schedules.html" class="drop-item">Class Schedules</a>
 
+        </div>
+      </div>
+      <a class="nav-item" href="get-involved.html"> Get Involved</a>
+      <a class="nav-item" href="contact-us.html"> Contact Us</a>
+    </nav>
   </div>
-  </div>
-    <a class="nav-item" href="get-involved.html"> Get Involved</a>
-    <a class="nav-item" href="contact-us.html"> Contact Us</a>
-  </nav>
-</div>
-<div class="page-content">
+  <div class="page-content">
 
-  <h1>A sustainable collective around everything yoga, in Vancouver BC.</h1>
+    <h1>A sustainable collective around everything yoga, in Vancouver BC.</h1>
 
+    <div class="tabs">
+      <ul class="tab-links tab-buttons">
+        <li class="active"><a href="#tab1">What We Do</a></li>
+        <li><a href="#tab2">Our Mission</a></li>
+        <li><a href="#tab3">Meet the Team</a></li>
+      </ul>
+      <div class="tab-content">
+        <div id="tab1" class="tab active">
+          <p>
+          Get in on the free yoga class action <a class="in-text-link"href="yoga-classes.html">here!<a/>
+          Rent a yoga mat <a class="in-text-link"href="mat-rentals.html">here!<a/>
+        </p>
+        </div>
+        <div id="tab2" class="tab">
+          <p>
+          Our mission is to foster a new type of yoga studio. Nonprofit, outdoor yoga classes coupled with yoga mat recycling. All in beautiful Vancouver BC. Support our mission by volunteering, donating or sponsoring <a class="in-text-link"href="get-involved.html">here.<a/>
+          </p>
+        </div>
+        <div id="tab3" class="tab">
+          <p>
+          This is our team! Feel free to contact us <a class="in-text-link"href="contact-us.html">here!<a/>
+          </p>
+        </div>
+      </div>
+    </div>
 
-<main>
-
-  <input id="tab1" type="radio" name="tabs" checked>
-  <label for="tab1">What We Do</label>
-
-  <input id="tab2" type="radio" name="tabs">
-  <label for="tab2">Our Mission</label>
-
-  <input id="tab3" type="radio" name="tabs">
-  <label for="tab3">Meet the Team</label>
-
-  <section id="content1" class="tab-section">
-    <p>
-      Get in on the free yoga class action <a class="in-text-link"href="yoga-classes.html">here!<a/>
-      Rent a yoga mat <a class="in-text-link"href="mat-rentals.html">here!<a/>
-    </p>
-  </section>
-
-  <section id="content2" class="tab-section">
-    <p>
-      Our mission is to foster a new type of yoga studio. Nonprofit, outdoor yoga classes coupled with yoga mat recycling. All in beautiful Vancouver BC. Support our mission by volunteering, donating or sponsoring <a class="in-text-link"href="get-involved.html">here.<a/>
-    </p>
-  </section>
-
-  <section id="content3" class="tab-section">
-    <p>
-      This is our team! Feel free to contact us <a class="in-text-link"href="contact-us.html">here!<a/>
-    </p>
-
-  </section>
-</main>
 
 
 </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+
+jQuery(document).ready(function() {
+jQuery('.tabs .tab-links a').on('click', function(e)  {
+var currentAttrValue = jQuery(this).attr('href');
+// Show/Hide Tabs
+jQuery('.tabs ' + currentAttrValue).show().siblings().hide();
+// Change/remove current tab to active
+jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
+e.preventDefault();
+});
+});
+</script>
 </body>
 
 </html>
