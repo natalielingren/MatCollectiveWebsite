@@ -1,3 +1,8 @@
+.page-content{
+  max-width: 65rem;
+  margin: auto;
+}
+
 /* Tab structure learned from http://inspirationalpixels.com/tutorials/creating-tabs-with-html-css-and-jquery */
 /*----- Tabs -----*/
 .tabs {
