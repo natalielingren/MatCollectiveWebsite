@@ -47,7 +47,10 @@ li.active a, li.active a:hover {
   display:block;
 }
 
-
+.tab-links, .tab-buttons{
+  margin-left: 0;
+  padding-left: 0;
+}
 
 
 
