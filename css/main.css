@@ -1,3 +1,4 @@
+/* Tab structure learned from http://inspirationalpixels.com/tutorials/creating-tabs-with-html-css-and-jquery */
 /*----- Tabs -----*/
 .tabs {
   width:100%;
@@ -11,18 +12,18 @@
   content:'';
 }
 .tab-links li {
-  margin:0px 5px;
+  margin-right: 0.25rem;
   float:left;
   list-style:none;
 }
 .tab-links a {
-  padding:9px 15px;
+  padding:0.8rem 0.8rem;
   display:inline-block;
-  border-radius:3px 3px 0px 0px;
+  border-radius:0.2rem 0.2rem 0rem 0rem;
   background:#7FB5DA;
-  font-size:16px;
+  font-size:0.9rem;
   font-weight:600;
-  color:#4c4c4c;
+  color:white;
   transition:all linear 0.15s;
 }
 .tab-links a:hover {
@@ -32,13 +33,14 @@
 li.active a, li.active a:hover {
   background:#fff;
   color:#4c4c4c;
+  background-color: rgb(245,245,245);
 }
 /*----- Content of Tabs -----*/
 .tab-content {
-  padding:15px;
-  border-radius:3px;
-  box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
-  background:#fff;
+  padding:1rem;
+  border-radius:0.25rem;
+   box-shadow: 0.25rem 0.25rem 0.5rem rgba(100,100,100,0.25);
+  background-color: rgb(245,245,245);
 }
 .tab {
   display:none;
@@ -50,102 +52,8 @@ li.active a, li.active a:hover {
 .tab-links, .tab-buttons{
   margin-left: 0;
   padding-left: 0;
+  margin-bottom: 0rem;
 }
-
-
-
-
-
-/* https://codepen.io/oknoblich/pen/tfjFl -- code help for tabs */
-
-/*
-*, *:before, *:after {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-} */
-
-/* main {
-margin-top: 5rem;
-min-width: 30rem;
-max-width: 50rem;
-padding: 1rem;
-background: white;
-
-} */
-/*
-.tab-section {
-display: none;
-padding: 0.20rem; 0 0;
-/* border-top: 0.10rem; solid #ddd; */
-
-/* box-shadow: 0.25rem 0.25rem 0.5rem rgba(100,100,100,0.25);
-background-color: rgb(245,245,245); */
-
-
-
-
-
-/* input {
-display: none;
-} */
-
-/* label {
-display: inline-block;
-margin: 0 0 -0.001rem;
-padding: 0.25rem 0.5rem;
-font-weight: 500;
-text-align: center;
-color: rgb(100,100,100);
-border: 0.001rem solid transparent;
-
-} */
-/*
-label:before {
-margin-right: 0.5rem;
-}
-
-
-label:hover {
-color: #888;
-cursor: pointer;
-}
-
-input:checked + label {
-color: #30adf9;
-/* border: 0.015rem solid #9b9ea3;
-border-top: 0.015rem solid #9b9ea3;
-border-bottom: 0rem solid #fff; */
-/* background-color: rgb(245,245,245);
-} */
-
-/* #tab1:checked ~ #content1,
-#tab2:checked ~ #content2,
-#tab3:checked ~ #content3,
-#tab4:checked ~ #content4 {
-display: block;
-} */
-
-/* @media screen and (max-width: 50rem) {
-label {
-font-size: 0;
-}
-label:before {
-margin: 0;
-font-size: 6rem;
-}
-}
-
-@media screen and (max-width: 40rem) {
-label {
-padding: 0.5rem;
-} */
-
-
-
-
-
-
 
 
 
