@@ -1,88 +1,142 @@
+/*----- Tabs -----*/
+.tabs {
+  width:100%;
+  display:inline-block;
+}
+/*----- Tab Links -----*/
+/* Clearfix */
+.tab-links:after {
+  display:block;
+  clear:both;
+  content:'';
+}
+.tab-links li {
+  margin:0px 5px;
+  float:left;
+  list-style:none;
+}
+.tab-links a {
+  padding:9px 15px;
+  display:inline-block;
+  border-radius:3px 3px 0px 0px;
+  background:#7FB5DA;
+  font-size:16px;
+  font-weight:600;
+  color:#4c4c4c;
+  transition:all linear 0.15s;
+}
+.tab-links a:hover {
+  background:#a7cce5;
+  text-decoration:none;
+}
+li.active a, li.active a:hover {
+  background:#fff;
+  color:#4c4c4c;
+}
+/*----- Content of Tabs -----*/
+.tab-content {
+  padding:15px;
+  border-radius:3px;
+  box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+  background:#fff;
+}
+.tab {
+  display:none;
+}
+.tab.active {
+  display:block;
+}
+
+
+
+
+
+
+
 /* https://codepen.io/oknoblich/pen/tfjFl -- code help for tabs */
 
 /*
 *, *:before, *:after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 } */
 
-main {
-  margin-top: 5rem;
+/* main {
+margin-top: 5rem;
+min-width: 30rem;
+max-width: 50rem;
+padding: 1rem;
+background: white;
 
-  max-width: 55rem;
-
-  background: white;
-
-}
-
+} */
+/*
 .tab-section {
-  display: none;
-  padding: 1rem; 0 0;
-  /* border-top: 0.10rem; solid #ddd; */
+display: none;
+padding: 0.20rem; 0 0;
+/* border-top: 0.10rem; solid #ddd; */
 
-  box-shadow: 0.25rem 0.25rem 0.5rem rgba(100,100,100,0.25);
-  background-color: rgb(245,245,245);
-
-
-}
+/* box-shadow: 0.25rem 0.25rem 0.5rem rgba(100,100,100,0.25);
+background-color: rgb(245,245,245); */
 
 
-input {
-  display: none;
-}
 
-label {
-  display: inline-block;
-  margin: 0 0 -0.001rem;
-  padding: 0.25rem 0.5rem;
-  font-weight: 500;
-  text-align: center;
-  color: rgb(100,100,100);
-  border: 0.001rem solid transparent;
-  font-size: 0.7rem;
 
-}
 
+/* input {
+display: none;
+} */
+
+/* label {
+display: inline-block;
+margin: 0 0 -0.001rem;
+padding: 0.25rem 0.5rem;
+font-weight: 500;
+text-align: center;
+color: rgb(100,100,100);
+border: 0.001rem solid transparent;
+
+} */
+/*
 label:before {
 margin-right: 0.5rem;
 }
 
 
 label:hover {
-  color: #888;
-  cursor: pointer;
+color: #888;
+cursor: pointer;
 }
 
 input:checked + label {
-  color: #30adf9;
-  /* border: 0.015rem solid #9b9ea3;
-  border-top: 0.015rem solid #9b9ea3;
-  border-bottom: 0rem solid #fff; */
-  background-color: rgb(245,245,245);
-}
+color: #30adf9;
+/* border: 0.015rem solid #9b9ea3;
+border-top: 0.015rem solid #9b9ea3;
+border-bottom: 0rem solid #fff; */
+/* background-color: rgb(245,245,245);
+} */
 
-#tab1:checked ~ #content1,
+/* #tab1:checked ~ #content1,
 #tab2:checked ~ #content2,
 #tab3:checked ~ #content3,
 #tab4:checked ~ #content4 {
-  display: block;
-}
+display: block;
+} */
 
 /* @media screen and (max-width: 50rem) {
-  label {
-    font-size: 0;
-  }
-  label:before {
-    margin: 0;
-    font-size: 6rem;
-  }
+label {
+font-size: 0;
+}
+label:before {
+margin: 0;
+font-size: 6rem;
+}
 }
 
 @media screen and (max-width: 40rem) {
-  label {
-    padding: 0.5rem;
-  } */
+label {
+padding: 0.5rem;
+} */
 
 
 
@@ -213,134 +267,132 @@ section code {
 /* Styling for Text Input Field */
 
 .text-input-field{
-padding: 0.2rem;
-outline: none;
-border-width: 0.075rem;
-border-color: grey;
-border-style: solid;
--webkit-transition: border-color 0.5s ease-out;
-transition: border-color 0.5s ease-out;
+  padding: 0.2rem;
+  outline: none;
+  border-width: 0.075rem;
+  border-color: grey;
+  border-style: solid;
+  -webkit-transition: border-color 0.5s ease-out;
+  transition: border-color 0.5s ease-out;
 
 }
 
 .text-input-field:focus{
-padding: 0.2rem;
-transition: 0.5s ease-in;
-border-color: #9ad3f4
+  padding: 0.2rem;
+  transition: 0.5s ease-in;
+  border-color: #9ad3f4
 }
 
 
 /*
-  TEXT ELEMENTS -------------------
+TEXT ELEMENTS -------------------
 
-  /* Styling for Headings */
-    /* Styling for Heading 1 */
-    h1{
-      font-weight: 500;
-      color: #444444;
-      margin-bottom: 0;
+/* Styling for Headings */
+/* Styling for Heading 1 */
+h1{
+  font-weight: 500;
+  color: #444444;
+  margin-bottom: 0;
 
 
-    }
-      /* Styling for Heading 2 */
+}
+/* Styling for Heading 2 */
 
-      h2{
+h2{
 
-        font-weight: 300;
-        color:#707070;
-        margin-top: 0.3rem;
+  font-weight: 300;
+  color:#707070;
+  margin-top: 0.3rem;
 
-      }
-        /* Styling for Heading 3 */
+}
+/* Styling for Heading 3 */
 
-        h3{
-          font-weight: 400;
-          color: #444444;
-        }
+h3{
+  font-weight: 400;
+  color: #444444;
+}
 
-  /* Styling for Paragraphs */
+/* Styling for Paragraphs */
 
-  p{
-    font-weight: 300;
-  }
+p{
+  font-weight: 300;
+}
 
-    /* Styling for Bulleted Lists */
+/* Styling for Bulleted Lists */
 
-    .bulleted-lists{
-      font-weight: 300;
-    }
+.bulleted-lists{
+  font-weight: 300;
+}
 
-  /* Styling for Numbered Lists */
+/* Styling for Numbered Lists */
 
-  .numbered-lists{
-    font-weight: 300;
-  }
+.numbered-lists{
+  font-weight: 300;
+}
 
 
 
 /*
-  COMBINED ELEMENTS -------------------
+COMBINED ELEMENTS -------------------
 
-  /* Styling for Main Navigation */
+/* Styling for Main Navigation */
 
-  .main-nav{
+.main-nav{
 
-    text-align: center;
-    display: inline-block;
-    margin-bottom: 0.5rem;
-    margin-top: 0.5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 
-    /* overflow: hidden; */
-  }
-  .nav-item{
-    color: #707070;
-    text-decoration: none;
-    font-style: italic;
-    transition: 0.2s ease-in;
-    padding-right: 1rem;
-    flex: 1 1 1rem;
+  /* overflow: hidden; */
+}
+.nav-item{
+  color: #707070;
+  text-decoration: none;
+  font-style: italic;
+  transition: 0.2s ease-in;
+  padding-right: 1rem;
+  flex: 1 1 1rem;
 
-  }
-  button{
-    color: #707070;
-    text-decoration: none;
-    font-style: italic;
-    transition: 0.2s ease-in;
-    /* padding-right: 1rem; */
-    flex: 1 1 1rem;
-    border: none;
-    outline: none;
-    font-family: 'Open Sans';
-    background-color: white;
-    font-weight: 300;
-
-
-  }
-  .dropdown {
-    /* float: left; */
-    display: inline-block;
-    overflow: hidden;
+}
+button{
+  color: #707070;
+  text-decoration: none;
+  font-style: italic;
+  transition: 0.2s ease-in;
+  padding-right: 1rem;
+  flex: 1 1 1rem;
+  border: none;
+  outline: none;
+  font-family: 'Open Sans';
+  background-color: white;
+  font-weight: 300;
+}
+.dropdown {
+  /* float: left; */
+  display: inline-block;
+  overflow: hidden;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 10rem;
-    z-index: 1;
-    font-family: 'open sans';
-    font-weight: 300;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 10rem;
+  z-index: 1;
+  font-family: 'open sans';
+  font-weight: 300;
 }
 
 .dropdown-content a {
-    float: none;
-    color: #707070;
-    padding: 1rem 2rem;
-    text-decoration: none;
-    display: block;
-    text-align: left;
+  float: none;
+  color: #707070;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  display: block;
+  text-align: left;
 }
 .down{
   font-style: none;
@@ -356,8 +408,7 @@ border-color: #9ad3f4
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
-
+  display: block;
 }
 
 .dropdown:hover .drop-button{
@@ -366,10 +417,10 @@ border-color: #9ad3f4
 
 
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_dropdown_navbar */
-  .current-item{
-    font-weight: 500;
-    color: #30adf9;
-  }
+.current-item{
+  font-weight: 500;
+  color: #30adf9;
+}
 .header{
   display: flex;
   justify-content:center;
@@ -377,73 +428,73 @@ border-color: #9ad3f4
   background-color: rgba(255,255,255,0.7);
 
 }
-  .logo{
-max-width: 4.5rem;
-flex: 2 1 10rem;
+.logo{
+  max-width: 4.5rem;
+  flex: 2 1 10rem;
 
-  }
-  .nav-item:hover, .nav-item:focus{
-    color:#30adf9;
-    text-shadow: 0.5px 0.5px 2px  rgba(50,50,50,0.2);
+}
+.nav-item:hover, .nav-item:focus{
+  color:#30adf9;
+  text-shadow: 1px 1px 2px rgba(50,50,50,0.2);
 
 
 
-  }
-    /* Styling for Product Listing */
+}
+/* Styling for Product Listing */
 
-    .product-listing{
-      display: flex;
-    }
+.product-listing{
+  display: flex;
+}
 img{
   width: 100%;
 }
-    .product-image{
-      flex: 1 1 40rem;
-      max-width: 700rem;
-    }
+.product-image{
+  flex: 1 1 40rem;
+  max-width: 700rem;
+}
 
-    .product-group{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-    }
+.product-group{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
-    .product-description{
-      padding: 0.75rem;
-      max-width: 40rem;
-      font-weight: 300;
-    }
+.product-description{
+  padding: 0.75rem;
+  max-width: 40rem;
+  font-weight: 300;
+}
 
-    .product-description h3{
-      margin-top: 0rem;
+.product-description h3{
+  margin-top: 0rem;
 
-    }
+}
 
-    /* Styling for Colour Sample */
+/* Styling for Colour Sample */
 
-    .colour-box{
-    }
+.colour-box{
+}
 
-    .box1{
-      background: #9ad3f4;
-      color: white;
-      padding: 2rem;
-      margin: 2rem;
-    }
+.box1{
+  background: #9ad3f4;
+  color: white;
+  padding: 2rem;
+  margin: 2rem;
+}
 
-    .box2{
-      background: #e0b8b8;
-      color: white;
-        padding: 2rem;
-          margin: 2rem;
-    }
+.box2{
+  background: #e0b8b8;
+  color: white;
+  padding: 2rem;
+  margin: 2rem;
+}
 
-    .box3{
-      background: #7fcc6a;
-      color: white;
-        padding: 2rem;
-          margin: 2rem;
-    }
+.box3{
+  background: #7fcc6a;
+  color: white;
+  padding: 2rem;
+  margin: 2rem;
+}
 
 
 /* form Styling */
