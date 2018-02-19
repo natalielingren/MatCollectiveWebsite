@@ -60,14 +60,23 @@ li.active a, li.active a:hover {
   margin-bottom: 0rem;
 }
 
+/* Styling for What we do */
+.yogi-picture img{
+  width: 15%;
+  margin-left: 6%;
+  margin-top: 5%;
+}
 
+.yogi-picture p{
+  width: 25%;
+  margin-left: 1.5%;
+  text-align: center;
+}
 
 body {
   font-family: 'Open Sans', Verdana, sans-serif;
 
   font-weight: 300;
-
-
 }
 
 
