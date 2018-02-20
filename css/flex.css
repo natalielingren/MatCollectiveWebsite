@@ -30,8 +30,41 @@ label{
   font-size: 1rem;
 }
 
+
+
 }
 /* media query over  */
+
+@media (min-width:55rem) {
+
+.home-banner{
+margin-top: 2rem;
+display: flex;
+}
+.home-banner-img{
+
+  width: 70%;
+  height: 100%
+}
+.up-next{
+  margin-top: 0;
+  margin-left: 0.5rem;
+  width: 30%;
+
+}
+.up-next-content{
+  display: block;
+
+
+}
+
+.up-next-times{
+
+  flex: none;
+}
+
+}
+/* second media query over */
 .tabs{
   padding: 0;
 
