@@ -1,8 +1,9 @@
 body{
 
-  background-image: url("http://www.sfu.ca/~mischap/pattern-background.png");
+  /* background-image: url("http://www.sfu.ca/~mischap/pattern-background.png");
   background-repeat: repeat;
-  background-size: 15rem 15rem;
+  background-size: 15rem 15rem; */
+  background-color: #e3eff8;
 }
 .page-content{
   max-width: 65rem;
