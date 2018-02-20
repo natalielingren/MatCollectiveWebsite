@@ -46,7 +46,39 @@ li.active a, li.active a:hover {
   background:#fff;
   color:#4c4c4c;
   background-color: rgb(245,245,245);
+
 }
+
+/*----- Styling for sideways scrolling -----*/
+.sideways{
+position: absolute;
+background-color:white;
+border: 0.05rem solid rgb(100, 100, 100);
+overflow-x: scroll;
+overflow-y: hidden;
+width: 70%;
+height: 30%;
+white-space: nowrap;
+margin-top: 20rem;
+margin-bottom: 5rem;
+}
+
+.sideways-images{
+  position: absolute;
+  flex-grow: 1;
+  width: 25%;
+  height:25%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  justify-content: space-around;
+  margin-left: 1rem;
+
+}
+
+.sideways-images img{
+  padding-right: 3rem;
+}
+
 /*----- Content of Tabs -----*/
 .tab-content {
   padding:1rem;
