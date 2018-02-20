@@ -13,13 +13,14 @@
   <div class="header">
     <a href="index.html"><img src="img/mat-col.svg" class="logo" alt="Mat Collective logo"></a>
   <nav class="main-nav">
-    <a class="nav-item" href="index.html"> Our Story</a>
+    <a class="nav-item" href="our-story.html"> Our Story</a>
     <a class="nav-item" href="mat-rentals.html"> Mat Rentals</a>
     <div class="dropdown">
       <button class="drop-button">
-    <a class="nav-item drop-button" href="yoga-classes.html"> Yoga Classes v</a>
-  </button>
-  <div class="dropdown-content">
+        <a class="nav-item drop-button"> Yoga Classes v</a>
+      </button>
+      <div class="dropdown-content">
+        <a href="yoga-classes.html" class="drop-item">What We Do</a>
     <a href="class-information.html" class="drop-item">Class Information</a>
     <a href="class-schedules.html" class="drop-item">Class Schedules</a>
 
@@ -34,49 +35,61 @@
 <h1>Join the Collective</h1>
 <h2>We need your support to keep the free yoga flowing</h2>
 
-<main>
+<div class="tabs">
+  <ul class="tab-links tab-buttons">
+    <li class="active"><a href="#tab1">Volunteer</a></li>
+    <li><a href="#tab2">Donate</a></li>
+    <li><a href="#tab3">Collaborate</a></li>
+      <li><a href="#tab4">Sponsor/Partner</a></li>
+  </ul>
+  <div class="tab-content">
+    <div id="tab1" class="tab active">
+      <p>
+        We run on Volunteer Power. Get a free yoga mat!
+        Gomukhasana vimanasana crab pose big toe pose a thin, round flat bread. arjuna and his five brothers, the heroes of the mahabharata. chandra goddess of truth. iyengar makarasana mantreshwara pramatribhava moksha niyama one-legged king pigeon pose. practice of contracting the anal sphincter. purpose of the consciousness, of man's existence- the four basic needs or desires, arth, kaama, dharma, moksha. represents a mantra in meditation; literally means, 'i am that'.
+      </p>
+    </div>
+    <div id="tab2" class="tab">
+      <p>
+        We need your financial support as a Nonprofit!
+        Gomukhasana vimanasana crab pose big toe pose a thin, round flat bread. arjuna and his five brothers, the heroes of the mahabharata. chandra goddess of truth. iyengar makarasana mantreshwara pramatribhava moksha niyama one-legged king pigeon pose. practice of contracting the anal sphincter. purpose of the consciousness, of man's existence- the four basic needs or desires, arth, kaama, dharma, moksha. represents a mantra in meditation; literally means, 'i am that'.
+      </p>
+    </div>
+    <div id="tab3" class="tab">
+      <p>
+        Join the collective and collaborate on projects! Contact us
+        <a class="in-text-link"href="contact-us.html">here!<a/>
+          Gomukhasana vimanasana crab pose big toe pose a thin, round flat bread. arjuna and his five brothers, the heroes of the mahabharata. chandra goddess of truth. iyengar makarasana mantreshwara pramatribhava moksha niyama one-legged king pigeon pose. practice of contracting the anal sphincter. purpose of the consciousness, of man's existence- the four basic needs or desires, arth, kaama, dharma, moksha. represents a mantra in meditation; literally means, 'i am that'.
+      </p>
+    </div>
 
-  <input id="tab1" type="radio" name="tabs" checked>
-  <label for="tab1">Volunteer</label>
+    <div id="tab4" class="tab">
+      <p>
+      Sponsor a season of yoga classes! Contact us <a class="in-text-link"href="contact-us.html">here!<a/>
+        Gomukhasana vimanasana crab pose big toe pose a thin, round flat bread. arjuna and his five brothers, the heroes of the mahabharata. chandra goddess of truth. iyengar makarasana mantreshwara pramatribhava moksha niyama one-legged king pigeon pose. practice of contracting the anal sphincter. purpose of the consciousness, of man's existence- the four basic needs or desires, arth, kaama, dharma, moksha. represents a mantra in meditation; literally means, 'i am that'.
+      </p>
+    </div>
 
-  <input id="tab2" type="radio" name="tabs">
-  <label for="tab2">Donate</label>
+  </div>
+</div>
 
-  <input id="tab3" type="radio" name="tabs">
-  <label for="tab3">Collaborate</label>
-
-  <input id="tab4" type="radio" name="tabs">
-  <label for="tab4">Sponsor/Partner</label>
-
-  <section id="content1" class="tab-section">
-    <p>
-      We run on Volunteer Power. Get a free yoga mat!
-    </p>
-  </section>
-
-  <section id="content2" class="tab-section">
-    <p>
-      We need your financial support as a Nonprofit!
-    </p>
-  </section>
-
-  <section id="content3" class="tab-section">
-    <p>
-      Join the collective and collaborate on projects! Contact us
-      <a class="in-text-link"href="contact-us.html">here!<a/>
-    </p>
-
-  </section>
-
-  <section id="content4" class="tab-section">
-    <p>
-    Sponsor a season of yoga classes! Contact us <a class="in-text-link"href="contact-us.html">here!<a/>
-    </p>
-
-  </section>
-
-</main>
 
 </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+
+jQuery(document).ready(function() {
+jQuery('.tabs .tab-links a').on('click', function(e)  {
+var currentAttrValue = jQuery(this).attr('href');
+// Show/Hide Tabs
+jQuery('.tabs ' + currentAttrValue).show().siblings().hide();
+// Change/remove current tab to active
+jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
+e.preventDefault();
+});
+});
+</script>
 </body>
 </html>
