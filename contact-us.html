@@ -12,13 +12,14 @@
   <div class="header">
     <a href="index.html"><img src="img/mat-col.svg" class="logo" alt="Mat Collective logo"></a>
   <nav class="main-nav">
-    <a class="nav-item" href="index.html"> Our Story</a>
+    <a class="nav-item" href="our-story.html"> Our Story</a>
     <a class="nav-item" href="mat-rentals.html"> Mat Rentals</a>
     <div class="dropdown">
       <button class="drop-button">
-    <a class="nav-item drop-button" href="yoga-classes.html"> Yoga Classes v</a>
-  </button>
-  <div class="dropdown-content">
+        <a class="nav-item drop-button"> Yoga Classes v</a>
+      </button>
+      <div class="dropdown-content">
+        <a href="yoga-classes.html" class="drop-item">What We Do</a>
     <a href="class-information.html" class="drop-item">Class Information</a>
     <a href="class-schedules.html" class="drop-item">Class Schedules</a>
 
@@ -33,6 +34,20 @@
 
 <h1>Contact Us!</h1>
 
+<form id="contact-us">
+  <h2>Lets Talk</h2>
+  <h3>What do you want to talk about?</h3>
+
+  <input type="radio" name="contact" value="Volunteering">Volunteering
+  <input type="radio" name="contact" value="Sponsorship">Sponsorship
+  <input type="radio" name="contact" value="Sponsorship">Questions
+
+
+</form>
+
+<textarea placeholder="type your message here..." rows="8" cols="50" name="message" form="contact-us"></textarea>
+<br>
+<button class="resetbutton" onclick="window.location.reload()">Submit</button>
 </div>
 </body>
 </html>

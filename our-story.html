@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet"  href="css/normalize.css">
+  <link rel="stylesheet"  href="css/main.css">
+  <link rel="stylesheet"  href="css/flex.css">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mat Collective</title>
+</head>
+<body>
+
+  <div class="header">
+  <a href="index.html"><img src="img/mat-col.svg" class="logo" alt="Mat Collective logo"></a>
+
+    <nav class="main-nav">
+      <a class="nav-item current-item"> Our Story</a>
+      <a class="nav-item" href="mat-rentals.html"> Mat Rentals</a>
+      <div class="dropdown">
+        <button class="drop-button">
+          <a class="nav-item drop-button"> Yoga Classes<img href="img/drop-arrow.svg"></a>
+        </button>
+        <div class="dropdown-content">
+          <a href="yoga-classes.html" class="drop-item">What We Do</a>
+      <a href="class-information.html" class="drop-item">Class Information</a>
+      <a href="class-schedules.html" class="drop-item">Class Schedules</a>
+
+    </div>
+    </div>
+      <a class="nav-item" href="get-involved.html"> Get Involved</a>
+      <a class="nav-item" href="contact-us.html"> Contact Us</a>
+    </nav>
+  </div>
+  <div class="page-content">
+
+    <h1>A sustainable collective around everything yoga, in Vancouver BC.</h1>
+
+    <div class="tabs">
+      <ul class="tab-links tab-buttons">
+        <li class="active"><a href="#tab1">What We Do</a></li>
+        <li><a href="#tab2">Our Mission</a></li>
+        <li><a href="#tab3">Meet the Team</a></li>
+      </ul>
+      <div class="tab-content">
+        <div id="tab1" class="tab active">
+          <div class="classes-yoga">
+            <div class="yogi-picture">
+            <img src="img/seated-yogi-icon.png" alt="A seated yogi icon">
+
+          <p>
+            We offer free yoga classes all summer long. Classes are outside in June, July and August at both Main Street & at Kits Beach.
+
+            We also bring yoga to you! We offer our yoga services to business and institutions who want yoga in their space.
+        </p>
+          </div>
+      </div>
+        </div>
+        <div id="tab2" class="tab">
+          <p>
+          Our mission is to foster a new type of yoga studio. Nonprofit, outdoor yoga classes coupled with yoga mat recycling. All in beautiful Vancouver BC. Support our mission by volunteering, donating or sponsoring <a class="in-text-link"href="get-involved.html">here.<a/>
+          </p>
+        </div>
+        <div id="tab3" class="tab">
+          <p>
+          This is our team! Feel free to contact us <a class="in-text-link"href="contact-us.html">here!<a/>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+
+jQuery(document).ready(function() {
+jQuery('.tabs .tab-links a').on('click', function(e)  {
+var currentAttrValue = jQuery(this).attr('href');
+// Show/Hide Tabs
+jQuery('.tabs ' + currentAttrValue).show().siblings().hide();
+// Change/remove current tab to active
+jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
+e.preventDefault();
+});
+});
+</script>
+</body>
+
+</html>
