@@ -53,15 +53,11 @@ display: flex;
 
 }
 .up-next-content{
-  display: block;
-
+  display: flex;
+justify-content: space-around;
 
 }
 
-.up-next-times{
-
-  flex: none;
-}
 
 }
 /* second media query over */

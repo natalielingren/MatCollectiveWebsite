@@ -208,12 +208,16 @@ section code {
   width: 10rem;
 }
 .up-next-content{
-  margin: auto;
+  margin: 0 auto;
   padding-bottom: 1rem;
+  padding-right: 1rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 
+}
+.up-next-title{
+  margin-bottom: 0;
 }
 
 
