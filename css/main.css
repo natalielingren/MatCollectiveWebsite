@@ -217,6 +217,42 @@ section code {
   padding-top: 2rem;
 }
 
+.home-banner-img{
+  width: 100%;
+}
+.home-banner{
+  display: block;
+  width: 100%
+}
+
+.up-next{
+  margin-top: 1rem;
+  background-color: #7fcc6a;
+  border-radius: 0.75rem;
+  padding-left: 1rem;
+}
+
+.class-time{
+  background-color: white;
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  width: 10rem;
+}
+.up-next-content{
+  margin: 0 auto;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+.up-next-title{
+  margin-bottom: 0;
+}
+
+
+
 .resetbutton:hover, .resetbutton:focus{
   color:#9ad3f4;
   background-color: white;
