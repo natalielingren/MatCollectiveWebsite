@@ -31,6 +31,7 @@
   <div class="page-content">
     <h1>Yoga class information</h1>
 
+
     <main>
 
       <input id="tab1" type="radio" name="tabs" checked>
@@ -77,6 +78,21 @@
       </section>
     </main>
 
-</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+
+jQuery(document).ready(function() {
+jQuery('.tabs .tab-links a').on('click', function(e)  {
+var currentAttrValue = jQuery(this).attr('href');
+// Show/Hide Tabs
+jQuery('.tabs ' + currentAttrValue).show().siblings().hide();
+// Change/remove current tab to active
+jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
+e.preventDefault();
+});
+});
+</script>
 </body>
 </html>
