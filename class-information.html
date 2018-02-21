@@ -31,6 +31,83 @@
   <div class="page-content">
     <h1>Yoga class information</h1>
 
+    <div class="tabs">
+      <ul class="tab-links tab-buttons">
+        <li class="active"><a href="#tab1">Class Types</a></li>
+        <li><a href="#tab2">Locations</a></li>
+        <li><a href="#tab3">Find a Teacher</a></li>
+      </ul>
+      <div class="tab-content">
+        <div id="tab1" class="tab active">
+          <h3>Hatha</h3>
+          <p>
+            ​A slower practice that emphasizes both postural alignment and various breathing techniques to stretch and strengthen your body.
+            ​Great for individuals who are newer to yoga. </p>
+
+            <h3>Flow</h3>
+            <p>
+              An energetic sequence of posture3s that synchronizes your breath with movement in order to build strength, balance, and flexibility. Generally each movement, in or out of a posture, is cued along with an inhalation or an exhalation.
+              Flow Yoga is sometimes called Vinyasa Yoga or Vinyasa Flow Yoga, and is a bit more challenging than a Hatha class.
+
+            </p>
+
+            <h3>Power</h3>
+            <p>
+              This challenging practice builds internal heat and increases strength, stamina, and flexibility. The dynamic sequence of postures will increase your flexibility, and most likely include some optional arm balances and/or inversions.
+              Recommended for those with a bit of previous yoga experience.​
+
+            </p>
+
+            <h3>Kundalini</h3>
+            <p>
+              A yoga practice focusing on awakening kundalini energy through the practice of meditation, breathing exercises, chanting mantra and yoga postures.
+              Great for all levels of yogis.
+            </p>
+
+            <h3>Yin</h3>
+            <p>
+              A slow-paced practice that targets connective tissues, to enhance joint mobility and flexibility. The deep stretches are held for longer periods of time to effectively target certain areas of the body, often the hips, pelvis, and lower spine.
+              The perfect all-levels compliment to more dynamic and muscular types of yoga and exercise.
+            </p>
+
+        </div>
+        <div id="tab2" class="tab">
+          <h3>Riley Park</h3>
+          <p>
+            The Main Street location is inside Riley Park, which is on just off of Quebec Street & E 32nd Ave, across from Nat Bailey Stadium. Our head office is a little house inside the park. Known as the Merakos Fieldhouse, it is both co-working space and a flexible studio. Classes are held both indoors and outdoors at this location. The outdoor classes are held on the North Side of the park. They are in a sunny patch of grass half way between the new playground (with the colorful fence) and the community garden. Click here to view an additional map of the outdoor yoga location at Riley Park.
+          </p>
+
+          <h3>Kits Beach</h3>
+          <p>
+            June 1st to August 31st, we host daily classes outside on the grass at Kits Beach. Find the classes on the North side of the beach, right at the corner of Maple St & Ogden Ave. Look for a little Mat Collective sandwich board (or all the happy people in yoga clothes!). Kitsilano Beach Park, 1015 Maple Street, Vancouver BC, V6J 3R4
+          </p>
+        </div>
+        <div id="tab3" class="tab">
+          <h3>Find a Teacher</h3>
+          <p>
+            Take a look at our Meet the Team tab to find your teacher! Click <a class="in-text-link" href="our-story.html">here!<a/>.
+          </p>
+        </div>
+      </div>
+    </div>
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+
+    jQuery(document).ready(function() {
+    jQuery('.tabs .tab-links a').on('click', function(e)  {
+    var currentAttrValue = jQuery(this).attr('href');
+    // Show/Hide Tabs
+    jQuery('.tabs ' + currentAttrValue).show().siblings().hide();
+    // Change/remove current tab to active
+    jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
+    e.preventDefault();
+    });
+    });
+    </script>
+<!--
 
     <main>
 
@@ -79,7 +156,7 @@
     </main>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
 
 <script>
 
