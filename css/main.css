@@ -513,6 +513,11 @@ img{
 
 form{
   margin-top:1rem;
+
+}
+
+.contact-form{
+width: 100%
 }
 
 #contact-us input{
@@ -527,7 +532,64 @@ textarea{
   background-color: rgb(250,250,250);
   border-radius: 1rem;
   padding: 1rem;
+  max-width: 25rem;
 }
 textarea:focus{
   outline:0;
+}
+
+
+/* team section */
+.team-member{
+  display: flex;
+  flex: 1 1 25rem;
+}
+
+.bio-img{
+  max-width: 10rem;
+  max-height: 10rem;
+  border-radius: 1000rem;
+
+}
+
+.bio-text{
+  padding: 0.5rem;
+}
+.bio-text h3{
+  margin-top: 0;
+}
+
+.our-team{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.icon{
+  margin-top: 0.6rem;
+  width: 2rem;
+  height: 2rem;
+
+}
+
+.social-link{
+  color: black;
+  display: flex;
+
+}
+
+.social-link p{
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+.social-link:hover,.social-link:focus{
+
+  filter: invert(0.5);
+}
+
+.map{
+  width: 100%;
+  max-width: 25rem;
+  height: 25rem;
+
 }

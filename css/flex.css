@@ -83,6 +83,20 @@ justify-content: space-around;
   justify-content: space-around;
 
 }
+.flex-box2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-right: 1rem;
+  max-width: 30rem;
+  }
+
+  .flex-box2 p{
+    margin: 0;
+  }
+.flex-item{
+  flex: 1 1 25rem;
+}
 
 .flex-image{
   flex: 1 1 10rem;
