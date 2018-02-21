@@ -242,6 +242,7 @@ section code {
   background-color: white;
   padding: 0.75rem;
   border-radius: 0.25rem;
+  margin-bottom: .25rem;
   width: 10rem;
 }
 .up-next-content{
@@ -251,6 +252,7 @@ section code {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  color: black;
 
 }
 .up-next-title{
@@ -366,7 +368,7 @@ button{
   text-decoration: none;
   /* font-style: italic; */
   transition: 0.2s ease-in;
-  padding-right: 1rem;
+  /* padding-right: 1rem; */
   flex: 1 1 1rem;
   border: none;
   outline: none;
@@ -422,9 +424,10 @@ button{
 
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_dropdown_navbar */
 .current-item{
-  font-weight: 500;
+  /* font-weight: 500; */
   color: #30adf9;
 }
+
 .header{
   display: flex;
   justify-content:center;
@@ -442,6 +445,12 @@ button{
   text-shadow: 1px 1px 2px rgba(50,50,50,0.2);
 
 
+
+}
+
+.drop-arrow{
+  width: 1rem;
+  height: 1rem;
 
 }
 /* Styling for Product Listing */
