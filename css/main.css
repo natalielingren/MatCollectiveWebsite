@@ -593,3 +593,17 @@ textarea:focus{
   height: 25rem;
 
 }
+
+/* Footer */
+
+.footer p{
+font-size: 0.8rem;
+font-weight: 400;
+}
+.footer p a{
+  font-weight: 300;
+  color: black;
+}
+.footer h3{
+  color: #39b3fc;
+}
