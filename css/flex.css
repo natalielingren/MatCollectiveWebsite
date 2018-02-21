@@ -30,8 +30,38 @@ label{
   font-size: 1rem;
 }
 
+
+
+
 }
 /* media query over  */
+
+@media (min-width:60rem) {
+
+.home-banner{
+margin-top: 2rem;
+display: flex;
+}
+.home-banner-img{
+
+  width: 70%;
+  height: 100%
+}
+.up-next{
+  margin-top: 0;
+  margin-left: 0.5rem;
+  width: 30%;
+
+}
+.up-next-content{
+  display: flex;
+justify-content: space-around;
+
+}
+
+
+}
+/* second media query over */
 .tabs{
   padding: 0;
 
@@ -52,6 +82,20 @@ label{
   flex-wrap: wrap;
   justify-content: space-around;
 
+}
+.flex-box2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-right: 1rem;
+  max-width: 30rem;
+  }
+
+  .flex-box2 p{
+    margin: 0;
+  }
+.flex-item{
+  flex: 1 1 25rem;
 }
 
 .flex-image{

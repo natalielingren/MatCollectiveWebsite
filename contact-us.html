@@ -16,7 +16,7 @@
     <a class="nav-item" href="mat-rentals.html"> Mat Rentals</a>
     <div class="dropdown">
       <button class="drop-button">
-        <a class="nav-item drop-button"> Yoga Classes v</a>
+        <a class="nav-item drop-button"> Yoga Classes <img src="img/drop-arrow.svg" alt="drop down menu" class="drop-arrow"></a>
       </button>
       <div class="dropdown-content">
         <a href="yoga-classes.html" class="drop-item">What We Do</a>
@@ -33,21 +33,45 @@
 <div class="page-content">
 
 <h1>Contact Us!</h1>
+<div class="flex-box">
+  <div class="flex-item contact-form">
+  <form id="contact-us">
+    <h2>Lets Talk</h2>
+    <h3>What do you want to talk about?</h3>
+<div class="flex-box2">
+    <p><input type="radio" name="contact" value="Volunteering">Volunteering</p>
+    <p><input type="radio" name="contact" value="Sponsorship">Sponsorship</p>
+    <p><input type="radio" name="contact" value="Sponsorship">Questions</p>
 
-<form id="contact-us">
-  <h2>Lets Talk</h2>
-  <h3>What do you want to talk about?</h3>
+</div>
+  </form>
 
-  <input type="radio" name="contact" value="Volunteering">Volunteering
-  <input type="radio" name="contact" value="Sponsorship">Sponsorship
-  <input type="radio" name="contact" value="Sponsorship">Questions
+  <textarea placeholder="type your message here..." rows="8" cols="50" name="message" form="contact-us"></textarea>
+  <br>
+  <button class="resetbutton" onclick="window.location.reload()">Submit</button>
+</div>
+<div class="flex-item">
+<h2>Our Social Media</h2>
+  <!-- https://en.instagram-brand.com/assets/glyph-icon -->
+  <a href="https://www.instagram.com/matcollectiveyvr/?hl=en" target="_blank" class="social-link"> <img src="img/insta-logo.png" alt="instgram logo" class="icon"><p>@matcollectiveyvr</p></a>
 
-
-</form>
-
-<textarea placeholder="type your message here..." rows="8" cols="50" name="message" form="contact-us"></textarea>
-<br>
-<button class="resetbutton" onclick="window.location.reload()">Submit</button>
+  <!-- https://en.facebookbrand.com/assets/f-logo -->
+  <a href="https://www.facebook.com/matcollectiveyoga/" target="_blank" class="social-link"> <img src="img/facebook-logo.png" alt="facebook logo" class="icon"><p>@matcollectiveyoga</p></a>
+</div>
+<div class="flex-item">
+  <h2>Find Us</h2>
+  <div class="flex-box">
+  <div class="flex-item">
+  <h3>Kits Beach</h3>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.9489531048002!2d-123.15184188431071!3d49.27736447933073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548672347acf4cf5%3A0xd1918a2f8a50d947!2sMat+Collective+%40+Kits!5e0!3m2!1sen!2sca!4v1519188172384" frameborder="0" style="border:0" allowfullscreen class="map"></iframe>
+</div>
+<div class="flex-item">
+  <h3>Riley Park</h3>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10419.260802703833!2d-123.1035924!3d49.2419928!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x45c7a141d8995d92!2sMat+Collective!5e0!3m2!1sen!2sca!4v1519187772292"  frameborder="0" style="border:0" allowfullscreen class="map"></iframe>
+</div>
+</div>
+</div>
+</div>
 </div>
 </body>
 </html>

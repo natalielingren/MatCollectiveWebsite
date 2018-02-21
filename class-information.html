@@ -16,7 +16,7 @@
     <a class="nav-item" href="mat-rentals.html"> Mat Rentals</a>
     <div class="dropdown">
       <button class="drop-button">
-        <a class="nav-item drop-button current-item"> Yoga Classes v</a>
+        <a class="nav-item drop-button current-item"> Yoga Classes <img src="img/drop-arrow.svg" alt="drop down menu" class="drop-arrow"></a>
       </button>
       <div class="dropdown-content">
         <a href="yoga-classes.html" class="drop-item">What We Do</a>
@@ -30,6 +30,7 @@
   </div>
   <div class="page-content">
     <h1>Yoga class information</h1>
+
 
     <main>
 
@@ -77,6 +78,21 @@
       </section>
     </main>
 
-</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+
+jQuery(document).ready(function() {
+jQuery('.tabs .tab-links a').on('click', function(e)  {
+var currentAttrValue = jQuery(this).attr('href');
+// Show/Hide Tabs
+jQuery('.tabs ' + currentAttrValue).show().siblings().hide();
+// Change/remove current tab to active
+jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
+e.preventDefault();
+});
+});
+</script>
 </body>
 </html>

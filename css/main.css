@@ -51,23 +51,22 @@ li.active a, li.active a:hover {
 
 /*----- Styling for sideways scrolling -----*/
 .sideways{
-position: absolute;
-background-color:white;
-border: 0.05rem solid rgb(100, 100, 100);
+/* position: absolute; */
+background-color:rgba(255,255,255,0.5);
+border-radius: 0.75rem;
+/* border: 0.05rem solid rgb(100, 100, 100); */
 overflow-x: scroll;
 overflow-y: hidden;
-width: 70%;
-height: 30%;
+
+width: 100%;
+height: 100%;
+
 white-space: nowrap;
-margin-top: 20rem;
-margin-bottom: 5rem;
+margin-top: 2rem;
+margin-bottom: 2rem;
 }
 
 .sideways-images{
-  position: absolute;
-  flex-grow: 1;
-  width: 25%;
-  height:25%;
   margin-top: 1rem;
   margin-bottom: 1rem;
   justify-content: space-around;
@@ -77,6 +76,11 @@ margin-bottom: 5rem;
 
 .sideways-images img{
   padding-right: 3rem;
+  min-height: 7rem;
+  max-height: 10rem;
+  max-width: 100%;
+  width: auto;
+  height:25%;
 }
 
 /*----- Content of Tabs -----*/
@@ -218,6 +222,44 @@ section code {
   padding-top: 2rem;
 }
 
+.home-banner-img{
+  width: 100%;
+}
+.home-banner{
+  display: block;
+  width: 100%
+}
+
+.up-next{
+  margin-top: 1rem;
+  background-color: #7fcc6a;
+  border-radius: 0.75rem;
+  padding-left: 1rem;
+}
+
+.class-time{
+  background-color: white;
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  margin-bottom: .25rem;
+  width: 10rem;
+}
+.up-next-content{
+  margin: 0 auto;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color: black;
+
+}
+.up-next-title{
+  margin-bottom: 0;
+}
+
+
+
 .resetbutton:hover, .resetbutton:focus{
   color:#9ad3f4;
   background-color: white;
@@ -325,7 +367,7 @@ button{
   text-decoration: none;
   /* font-style: italic; */
   transition: 0.2s ease-in;
-  padding-right: 1rem;
+  /* padding-right: 1rem; */
   flex: 1 1 1rem;
   border: none;
   outline: none;
@@ -381,9 +423,10 @@ button{
 
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_dropdown_navbar */
 .current-item{
-  font-weight: 500;
+  /* font-weight: 500; */
   color: #30adf9;
 }
+
 .header{
   display: flex;
   justify-content:center;
@@ -401,6 +444,12 @@ button{
   text-shadow: 1px 1px 2px rgba(50,50,50,0.2);
 
 
+
+}
+
+.drop-arrow{
+  width: 1rem;
+  height: 1rem;
 
 }
 /* Styling for Product Listing */
@@ -464,6 +513,11 @@ img{
 
 form{
   margin-top:1rem;
+
+}
+
+.contact-form{
+width: 100%
 }
 
 #contact-us input{
@@ -478,7 +532,78 @@ textarea{
   background-color: rgb(250,250,250);
   border-radius: 1rem;
   padding: 1rem;
+  max-width: 25rem;
 }
 textarea:focus{
   outline:0;
+}
+
+
+/* team section */
+.team-member{
+  display: flex;
+  flex: 1 1 25rem;
+}
+
+.bio-img{
+  max-width: 10rem;
+  max-height: 10rem;
+  border-radius: 1000rem;
+
+}
+
+.bio-text{
+  padding: 0.5rem;
+}
+.bio-text h3{
+  margin-top: 0;
+}
+
+.our-team{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.icon{
+  margin-top: 0.6rem;
+  width: 2rem;
+  height: 2rem;
+
+}
+
+.social-link{
+  color: black;
+  display: flex;
+
+}
+
+.social-link p{
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+.social-link:hover,.social-link:focus{
+
+  filter: invert(0.5);
+}
+
+.map{
+  width: 100%;
+  max-width: 25rem;
+  height: 25rem;
+
+}
+
+/* Footer */
+
+.footer p{
+font-size: 0.8rem;
+font-weight: 400;
+}
+.footer p a{
+  font-weight: 300;
+  color: black;
+}
+.footer h3{
+  color: #39b3fc;
 }
