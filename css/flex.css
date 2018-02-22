@@ -109,3 +109,8 @@ justify-content: space-around;
   max-width: 35rem;
   padding: 1rem;
 }
+
+.tab-text{
+  max-width: 30rem;
+  /* margin:auto; */
+}
