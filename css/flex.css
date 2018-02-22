@@ -97,6 +97,11 @@ justify-content: space-around;
 .flex-item{
   flex: 1 1 25rem;
 }
+.flex-item-wwd{
+  padding: 1rem;
+  flex: 1 1 15rem;
+
+}
 
 .flex-image{
   flex: 1 1 10rem;

@@ -105,15 +105,16 @@ margin-bottom: 2rem;
 
 /* Styling for What we do */
 .yogi-picture img{
-  width: 15%;
+  /* width: 15%;
   margin-left: 6%;
-  margin-top: 5%;
+  margin-top: 5%; */
+
 }
 
 .yogi-picture p{
-  width: 25%;
+  /* width: 25%;
   margin-left: 1.5%;
-  text-align: center;
+  text-align: center; */
 }
 
 body {
@@ -329,6 +330,10 @@ p{
   font-weight: 300;
 }
 
+ul {
+  list-style-type:circle;
+}
+
 /* Styling for Numbered Lists */
 
 .numbered-lists{
@@ -537,7 +542,6 @@ textarea{
 textarea:focus{
   outline:0;
 }
-
 
 /* team section */
 .team-member{
