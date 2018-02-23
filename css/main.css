@@ -640,3 +640,10 @@ font-weight: 400;
 .footer h3{
   color: #39b3fc;
 }
+
+.calendar{
+  max-width: 800px;
+  height: 600px;
+  width: 100%;
+
+}
