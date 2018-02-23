@@ -147,9 +147,9 @@ justify-content: space-around;
     padding: 1rem;
   }
 
-  h3, .flex-text{
+  h3 .flex-text{
     margin-top: 0;
   }
-  p, .flex-text{
+  p .flex-text{
     margin-top: 0;
   }
