@@ -1,3 +1,11 @@
+
+@media (min-width:45rem) {
+  .bio-text{
+    max-width: 30rem;
+  }
+}
+
+
 @media (min-width:34rem) {
 
 
