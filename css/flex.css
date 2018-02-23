@@ -137,7 +137,7 @@ justify-content: space-around;
   max-width: 30rem;
   margin:auto;
 }
-.flex-box, .mat-rental{
+.flex-box.mat-rental{
   justify-content: space-between;
 
   }
@@ -147,9 +147,9 @@ justify-content: space-around;
     padding: 1rem;
   }
 
-  h3 .flex-text{
+  .flex-text h3{
     margin-top: 0;
   }
-  p .flex-text{
+  .flex-text p{
     margin-top: 0;
   }
