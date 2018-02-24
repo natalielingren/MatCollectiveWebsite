@@ -368,7 +368,7 @@ COMBINED ELEMENTS -------------------
 .main-nav{
 
   text-align: center;
-  display: inline-block;
+  display: flex;
   margin-bottom: 0.5rem;
   margin-top: 0.5rem;
   padding-left: 1rem;
@@ -382,7 +382,7 @@ COMBINED ELEMENTS -------------------
   /* font-style: italic; */
   transition: 0.2s ease-in;
   padding-right: 1rem;
-  flex: 1 1 1rem;
+  /* flex: 1 1 1rem; */
 
 }
 button{
@@ -397,8 +397,11 @@ button{
   font-family: 'Open Sans';
   background-color: rgba(255,255,255,0);
   font-weight: 300;
+  padding: 0;
+
 
 }
+
 .dropdown {
   /* float: left; */
   display: inline-block;
@@ -413,6 +416,7 @@ button{
   z-index: 1;
   font-family: 'open sans';
   font-weight: 300;
+
 }
 
 .dropdown-content a {
@@ -432,9 +436,9 @@ button{
   color: #30adf9;
 }
 
-.drop-item:nth-child(even){
+/* .drop-item:nth-child(even){
   background-color: rgb(240,240,240);
-}
+} */
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -442,6 +446,10 @@ button{
 
 .dropdown:hover .drop-button{
     color: #30adf9;
+}
+
+.drop-button{
+  padding-bottom: 1rem;
 }
 
 
@@ -482,7 +490,7 @@ button{
 
 .drop-arrow{
   width: 1rem;
-  height: 1rem;
+  height: 0.6rem;
 
 }
 /* Styling for Product Listing */
