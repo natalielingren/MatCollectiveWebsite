@@ -5,10 +5,10 @@
   }
 }
 
-@media (max-width:34rem){
-  .logo-type{
-    display:none;
-  }
+@media (max-width:24rem){
+nav-item{
+flex: 1 1 10rem;
+}
 }
 @media (min-width:34rem) {
 
