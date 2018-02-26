@@ -595,6 +595,7 @@ textarea:focus{
 .bio-text{
   padding: 0.5rem;
   max-width: 20rem;
+  min-height: 13rem;
 }
 .bio-text h3{
   margin-top: 0;
