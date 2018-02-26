@@ -1,3 +1,15 @@
+
+@media (min-width:45rem) {
+  .bio-text{
+    max-width: 30rem;
+  }
+}
+
+@media (max-width:34rem){
+  .logo-type{
+    display:none;
+  }
+}
 @media (min-width:34rem) {
 
 
@@ -5,7 +17,9 @@
   text-align: right;
   margin-top: 2.5rem;
   margin-bottom: 0;
+
 }
+
 
 .header{
   justify-content:space-between;
@@ -97,6 +111,15 @@ justify-content: space-around;
 .flex-item{
   flex: 1 1 25rem;
 }
+.flex-item-wwd{
+  padding: 1rem;
+  flex: 1 1 15rem;
+
+}
+
+.logo-pair{
+  display: flex;
+}
 
 .flex-image{
   flex: 1 1 10rem;
@@ -107,5 +130,27 @@ justify-content: space-around;
 .flex-text{
   flex: 1 1 17rem;
   max-width: 35rem;
-  padding: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
+
+.tab-text{
+  max-width: 30rem;
+  margin:auto;
+}
+.flex-box .mat-rental{
+  justify-content: space-between;
+
+  }
+
+  .mat-price{
+    flex:1 1 15rem;
+    padding: 1rem;
+  }
+
+  .flex-text h3{
+    margin-top: 0;
+  }
+  .flex-text p{
+    margin-top: 0;
+  }
