@@ -8,25 +8,26 @@
 
   .bio-text{
   text-align: center;
-  max-width: 7rem;
+  /* max-width: 7rem; */
   }
 
   .bio-img{
 
 }
 
-@media (min-width:45rem) {
+@media (max-width:40rem) {
   .bio-text{
-    max-width: 18.5rem;
+    max-width: 30rem;
   }
 }
 
-@media (max-width:70rem) {
+@media (min-width:40rem) {
   .bio-text{
-    max-width: 27rem;
+    max-width: 20rem;
   }
-
 }
+
+
 
 @media (max-width:34rem){
   .logo-type{
