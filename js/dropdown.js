@@ -20,7 +20,7 @@ var width = window.innerWidth;
 window.addEventListener("resize",function(){
   width = window.innerWidth;
 
-if(width < 768){
+if(width < 769){
   console.log("break point menu button activated");
   menuButton.classList.remove("hidden");
   navItems.classList.add("hidden");
@@ -46,7 +46,7 @@ menuButton.addEventListener("click",function(){
 })
 
 console.log(width);
-if(width < 768){
+if(width < 769){
   console.log("second width selector");
   menuButton.classList.remove("hidden");
   navItems.classList.add("hidden");
