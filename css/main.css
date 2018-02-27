@@ -366,8 +366,7 @@ COMBINED ELEMENTS -------------------
 /* Styling for Main Navigation */
 
 .main-nav{
-
-  text-align: center;
+  
   display: flex;
   margin-bottom: 0.5rem;
   margin-top: 0.5rem;
@@ -452,7 +451,16 @@ button{
   padding-bottom: 1rem;
 }
 
+.hidden{
+  display: none;
+}
 
+#menu-button{
+position: absolute;
+padding-top: 2rem;
+padding-right:1rem;
+right: 0;
+}
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_dropdown_navbar */
 .current-item{
   /* font-weight: 500; */
@@ -461,7 +469,7 @@ button{
 
 header{
   display: flex;
-  justify-content:center;
+  justify-content:space-between;
   flex-wrap: wrap;
   background-color: rgba(255,255,255,0.7);
 
