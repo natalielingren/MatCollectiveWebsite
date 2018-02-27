@@ -459,7 +459,7 @@ button{
   color: #30adf9;
 }
 
-.header{
+header{
   display: flex;
   justify-content:center;
   flex-wrap: wrap;
@@ -638,16 +638,47 @@ textarea:focus{
 
 /* Footer */
 
-.footer p{
-font-size: 0.8rem;
+footer{
+  background-color: white;
+  margin: 0;
+}
+
+footer p{
+font-size: 1rem;
 font-weight: 400;
 }
-.footer p a{
+footer p a{
   font-weight: 300;
   color: black;
 }
-.footer h3{
-  color: #39b3fc;
+
+footer a{
+  color: rgb(6, 209, 155);
+  text-decoration:none;
+}
+
+footer h3{
+  padding-top: 2rem;
+  padding-left: 3rem;
+}
+
+/* .footer-header h3{
+  padding: 3rem;
+} */
+
+.footer-container{
+  margin-left:1rem;
+  margin-right:1rem;
+  margin-bottom:1rem;
+  margin-top:0rem;
+  padding-top:0rem;
+}
+
+.footer-item{
+  margin-top:0rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
 }
 
 .calendar{
