@@ -4,6 +4,7 @@
   .team-member{
     flex-wrap: wrap;
     flex: 1 1 25rem;
+    justify-content: center;
   }
 
   .bio-text{
@@ -11,9 +12,7 @@
   /* max-width: 7rem; */
   }
 
-  .bio-img{
 
-}
 
 @media (max-width:40rem) {
   .bio-text{
