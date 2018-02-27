@@ -428,7 +428,7 @@ button{
   text-align: left;
 }
 .down{
-  font-style: none;
+  /* font-style: none; */
 }
 
 
@@ -564,7 +564,6 @@ width: 100%
 #contact-us input{
   display: inline;
   margin : 1rem;
-  label:
 }
 
 textarea{
