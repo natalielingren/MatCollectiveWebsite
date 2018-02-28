@@ -4,6 +4,7 @@ body{
   background-repeat: repeat;
   background-size: 15rem 15rem; */
   background-color: #e3eff8;
+  padding: 0;
 }
 .page-content{
   max-width: 65rem;
@@ -199,7 +200,7 @@ section code {
   color:#9ad3f4;
   background-color: white;
   border-color: #9ad3f4;
-  border-width: 0.05rem;
+  border-width: 0.025rem;
   border: solid;
 
 
@@ -389,13 +390,13 @@ COMBINED ELEMENTS -------------------
 /* Styling for Main Navigation */
 
 .main-nav{
-  
+
   display: flex;
   margin-bottom: 0.5rem;
   margin-top: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
-
+transition: all 0.5s ease;
   /* overflow: hidden; */
 }
 .nav-item{
@@ -406,6 +407,11 @@ COMBINED ELEMENTS -------------------
   padding-right: 1rem;
   /* flex: 1 1 1rem; */
 
+}
+.centered{
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 button{
   color: #707070;
@@ -463,6 +469,12 @@ button{
 } */
 
 .dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:focus .dropdown-content {
+  display: block;
+}
+.drop-button .dropdown-content{
   display: block;
 }
 
@@ -604,6 +616,8 @@ textarea{
   border-radius: 1rem;
   padding: 1rem;
   max-width: 25rem;
+  height:8rem;
+  width:50rem;
 }
 textarea:focus{
   outline:0;
@@ -648,6 +662,13 @@ textarea:focus{
   color: black;
   display: flex;
 
+}
+.unstyled-link{
+  color: white;
+  transition: color 0.5s;
+}
+.unstyled-link:hover,.unstyled-link:focus{
+  color: black;
 }
 
 .social-link p{

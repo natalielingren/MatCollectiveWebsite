@@ -15,7 +15,7 @@
       <a href="index.html"><p class="logo-type">MATCOLLECTIVE</p></a>
 
     </div>
-    <button id="menu-button" class="hidden">MENU</button>
+    <button id="menu-button" aria-hidden="true" class="hidden">MENU</button>
     <nav id="main-nav" class="main-nav">
       <a class="nav-item" href="our-story.html"> Our Story</a>
       <a class="nav-item" href="mat-rentals.html"> Mat Rentals</a>
@@ -47,13 +47,14 @@
             <p><input type="radio" name="contact" value="Volunteering">Volunteering</p>
             <p><input type="radio" name="contact" value="Sponsorship">Sponsorship</p>
             <p><input type="radio" name="contact" value="Sponsorship">Questions</p>
-
+            <p>Your Email<input type="text" name="contact email"></p>
           </div>
+
         </form>
 
-        <textarea placeholder="type your message here..." rows="8" cols="50" name="message" form="contact-us"></textarea>
+        <textarea placeholder="type your message here..."  name="message" form="contact-us"></textarea>
         <br>
-        <button class="resetbutton" onclick="window.location.reload()">Submit</button>
+        <button class="resetbutton" >Submit</button>
       </div>
       <div class="flex-item">
         <h2>Our Social Media</h2>

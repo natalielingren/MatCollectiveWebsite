@@ -22,6 +22,7 @@
 }
 
 
+
 @media (max-width:48rem){
 .main-nav{
   width: 100%;
@@ -38,11 +39,24 @@ padding-bottom: 0.5rem;
   padding-bottom: 0;
 }
 }
+@media(max-width:30rem){
+  textarea{
+    width:15rem;
 
+  }
+}
+/* mobile sized */
 @media(max-width:24rem){
   .nav-item{
     text-align: right;
   }
+  .tab-buttons li{
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 0.1rem;
+  }
+
+
 }
 
 @media (min-width:40rem) {
@@ -186,6 +200,10 @@ justify-content: space-around;
   max-width:40rem;
 }
 
+.logos{
+  max-width: 10rem;
+  padding: 1rem;
+}
 .flex-text{
   flex: 1 1 17rem;
   max-width: 35rem;

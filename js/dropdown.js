@@ -24,10 +24,12 @@ if(width < 769){
   console.log("break point menu button activated");
   menuButton.classList.remove("hidden");
   navItems.classList.add("hidden");
+  menuButton.setAttribute("aria-hidden","false");
 
 }else{
   menuButton.classList.add("hidden");
   navItems.classList.remove("hidden");
+  menuButton.setAttribute("aria-hidden","true");
 }
 
 })
@@ -50,9 +52,11 @@ if(width < 769){
   console.log("second width selector");
   menuButton.classList.remove("hidden");
   navItems.classList.add("hidden");
+  menuButton.setAttribute("aria-hidden","false");
 
 
 }else{
   menuButton.classList.add("hidden");
   navItems.classList.remove("hidden");
+  menuButton.setAttribute("aria-hidden","true");
 }
