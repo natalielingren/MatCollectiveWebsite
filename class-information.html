@@ -15,11 +15,12 @@
     <a href="index.html"><p class="logo-type">MATCOLLECTIVE</p></a>
 
     </div>
-    <nav class="main-nav">
+    <button id="menu-button" class="hidden">MENU</button>
+    <nav id="main-nav" class="main-nav">
     <a class="nav-item" href="our-story.html"> Our Story</a>
     <a class="nav-item" href="mat-rentals.html"> Mat Rentals</a>
-    <div class="dropdown">
-      <button class="drop-button nav-item drop-button current-item">
+    <div class="dropdown nav-item ">
+    <button class="drop-button drop-button current-item">
         Yoga Classes <img src="img/drop-arrow.svg" alt="drop down menu" class="drop-arrow">
       </button>
       <div class="dropdown-content">
@@ -160,7 +161,7 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+<script src="js/dropdown.js"></script>
 <script>
 
 jQuery(document).ready(function() {

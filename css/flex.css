@@ -21,6 +21,30 @@
   }
 }
 
+
+@media (max-width:48rem){
+.main-nav{
+  width: 100%;
+
+flex-wrap: wrap;
+}
+.nav-item{
+  flex: 1 1 10rem;
+text-align: center;
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+}
+.drop-button{
+  padding-bottom: 0;
+}
+}
+
+@media(max-width:24rem){
+  .nav-item{
+    text-align: right;
+  }
+}
+
 @media (min-width:40rem) {
   .bio-text{
     max-width: 20rem;
@@ -28,12 +52,13 @@
 }
 
 
-@media (max-width:34rem){
+@media (max-width:20rem){
   .logo-type{
     display:none;
   }
+
 }
-@media (min-width:34rem) {
+@media (min-width:48rem) {
 
 
 .main-nav{
