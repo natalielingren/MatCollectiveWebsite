@@ -188,3 +188,8 @@ justify-content: space-around;
   .flex-text p{
     margin-top: 0;
   }
+
+.form-outer li{
+  display: flex;
+  flex-wrap: wrap;
+}

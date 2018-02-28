@@ -182,6 +182,8 @@ section code {
 .submitbutton{
 
   display: inline-block;
+  padding-left: 5rem;
+  max-width: 5rem;
   padding: 0.4rem;
   background-color: #9ad3f4;
   color:white;
@@ -287,6 +289,27 @@ section code {
   border: solid;
 
 }
+
+.form-outer input{
+  width:auto;
+  margin:.5rem;
+  align-items: center;
+}
+
+.form-outer label{
+  margin:.5rem;
+}
+
+.form-outer li{
+  align-items: center;
+}
+
+
+
+/* .form-outer li button{
+
+} */
+
 
 /* Styling for Text Input Field */
 

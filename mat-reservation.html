@@ -6,10 +6,9 @@
   <link rel="stylesheet"  href="css/main.css">
   <link rel="stylesheet"  href="css/flex.css">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Mat Collective Mat Rentals</title>
+  <title>Mat Collective Class Schedules</title>
 </head>
 <body>
-
   <header>
     <div class="logo-pair">
     <a href="index.html"><img src="img/mat-col.svg" class="logo" alt="Mat Collective logo"></a>
@@ -17,9 +16,9 @@
 
     </div>  <nav class="main-nav">
     <a class="nav-item" href="our-story.html"> Our Story</a>
-    <a class="nav-item current-item" href="mat-rentals.html"> Mat Rentals</a>
+    <a class="nav-item" href="mat-rentals.html"> Mat Rentals</a>
     <div class="dropdown">
-      <button class="drop-button nav-item drop-button">
+      <button class="drop-button nav-item drop-button current-item">
         Yoga Classes <img src="img/drop-arrow.svg" alt="drop down menu" class="drop-arrow">
       </button>
       <div class="dropdown-content">
@@ -33,78 +32,54 @@
     <a class="nav-item" href="contact-us.html"> Contact Us</a>
   </nav>
 </header>
-
 <div class="page-content">
 
-<h1>Yoga Mat Rentals</h1>
-<h2>Rent a Recycled Yoga Mat!</h2>
-
-<div class="reserve-button submitbutton">
-  <button>
-      <a href="mat-reservation.html">Reserve a Mat</a>
-  </button>
-</div>
+  <h1>Reserve a Mat</h1>
+    <h2>Fill out the information and pick it up!</h2>
 
 
+    <form id="reservation-form">
+      <ul class="form-outer">
+        <li>
+          <label for="first-name">First Name</label>
+          <input type="text" id="first-name" placeholder="Enter your first name here">
+        </li>
+        <li>
+          <label for="last-name">Last Name</label>
+          <input type="text" id="last-name" placeholder="Enter your last name here">
+        </li>
+        <li>
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter your email here">
+        </li>
+        <li>
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" placeholder="Enter your phone here">
+        </li>
+        <li>
+          <label for="message">Message</label>
+          <textarea rows="6" id="message" placeholder="Enter your message here"></textarea>
+        </li>
+        <li>
+          <button class="submitbutton" type="submit">Submit</button>
+
+        </li>
+      </ul>
+    </form>
 
 
-
-  <div class="flex-box mat-rental">
-
-  <div class="mat-price">
-    <h3>Pricing Per 24 Hours</h3>
-    <p>For pickup and return within 24 hours, perfect for Mat Collective Classes</p>
-  <ul>
-  <li>1 - 5 Mats  /  $4.00 per mat</li>
-  <li>6 - 10 Mats  /  $3.50 per mat</li>
-  <li>11 - 25 Mats  /  $3.25 per mat</li>
-  <li>26 - 40 Mats  /  $3.20 per mat</li>
-  </ul>
-</div>
+    <!-- <form id="reservation-form">
+      <input type="text" id="First-Name" name="First-Name">
+      <label for="First-Name">
+        <span>First Name </span></label>
+     <input type="text" id="Last-Name" name="Last-Name">
+       <label for="Last-Name"> <span>Last Name</span></label>
+       <input type="date" id="Choose-Date" name="Choose-Date">
+       <label for="Choose-Date"> <span>Choose Date</span></label>
 
 
-<div class="mat-price">
+    </form> -->
 
-  <h3>Per 24+ Hours</h3>
-
-  <p>Please note, the price quoted is per day for rentals over 24 hours.</p>
-  <ul>
-  <li>1 - 5 Mats  /  $3.00 per mat</li>
-  <li>6 - 10 Mats  /  $2.50 per mat</li>
-  <li>11 - 25 Mats  /  $2.25 per mat</li>
-  <li>26 - 40 Mats  /  $2.20 per mat</li>
-  </ul>
-</div>
-
-<div class="mat-price">
-<h3>Weekend Rates</h3>
-
-<p>A Special Deal! For rentals starting anytime on Friday, and ending anytime on Monday!</p>
-<ul>
-
-<li>1 - 5 Mats  /  $10.00 per mat</li>
-<li>6 - 10 Mats  /  $9.50 per mat</li>
-<li>11 - 25 Mats  /  $9.25 per mat</li>
-<li>26 - 40 Mats  /  $9.20 per mat</li>
-</ul>
-
-</div>
-</div>
-<div class="flex-box">
-<img src="img/blue-mats.jpg" alt="some yoga mats" class="flex-image flex-image mat-rental">
-<div class="flex-item mat-rental flex-text">
-  <h3>How it works</h3>
-
-  <ol>
-    <li>Individuals, yoga studios and other facilities <strong>donate unwanted mats</strong> to the collective. We are always accepting donations at our studio, and can organize pick up for large donations. We accept mats in any condition.</li>
-  <li>Mats are sorted and washed with an organic cleanser. They are then labelled either for recycling (<strong>exchanged for a few volunteer hours</strong> or a small donation) or are upcycled (<strong>turned into new products</strong>.</li>
-  <li>To drop off mats, volunteer or purchase products please coordinate a time to <strong>visit our studio.</strong></li>
-</ol>
-
-
-</div>
-
-</div>
 </div>
 <footer>
   <div id="footer-header">
