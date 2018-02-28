@@ -50,6 +50,8 @@ li.active a, li.active a:hover {
 
 }
 
+
+
 /*----- Styling for sideways scrolling -----*/
 .sideways{
 /* position: absolute; */
@@ -117,6 +119,15 @@ margin-bottom: 2rem;
   margin-left: 1.5%;
   text-align: center; */
 }
+
+.what-we-do .flex-image{
+  max-width: 60rem;
+
+}
+
+
+
+
 
 body {
   font-family: 'Open Sans', Verdana, sans-serif;
