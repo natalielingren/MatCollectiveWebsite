@@ -52,7 +52,7 @@ padding-bottom: 0.5rem;
 }
 
 
-@media (max-width:34rem){
+@media (max-width:20rem){
   .logo-type{
     display:none;
   }
