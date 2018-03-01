@@ -86,6 +86,10 @@ margin-bottom: 2rem;
   height:25%;
 }
 
+.sideways-images img:hover, .sideways-images img:focus{
+  filter:opacity(0.5);
+}
+
 /*----- Content of Tabs -----*/
 .tab-content {
   padding:1rem;
