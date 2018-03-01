@@ -1,4 +1,5 @@
 
+/* Flex for meet the teem */
 @media (max-width:32rem) {
 
   .team-member{
@@ -21,7 +22,7 @@
   }
 }
 
-
+/* Flex for meet the teem */
 
 @media (max-width:48rem){
 .main-nav{
@@ -56,6 +57,19 @@ padding-bottom: 0.5rem;
     font-size: 0.1rem;
   }
 
+h1{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+h2{
+  font-size: 1rem;
+
+}
+
+h3{
+  font-size: 1rem;
+}
 
 }
 
@@ -181,6 +195,11 @@ justify-content: space-around;
   .flex-box2 p{
     margin: 0;
   }
+
+  .flex-box-what-we-do{
+  display:
+  }
+
 .flex-item{
   flex: 1 1 25rem;
 }
