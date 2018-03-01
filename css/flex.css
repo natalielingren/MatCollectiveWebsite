@@ -196,9 +196,9 @@ justify-content: space-around;
     margin: 0;
   }
 
-  .flex-box-what-we-do{
+  /* .flex-box-what-we-do{
   display:
-  }
+  } */
 
 .flex-item{
   flex: 1 1 25rem;

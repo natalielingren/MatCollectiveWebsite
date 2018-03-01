@@ -194,9 +194,9 @@ section code {
   color:white;
   border: solid;
   border-radius: 0.25em;
-  border text-decoration: none;
-  -webkit-transition: 0.8s ease-in;
-  transition: background-color 0.5s ease-in;
+  text-decoration: none;
+  /* -webkit-transition: 0.8s ease-in; */
+  transition: 0.5s ease-in;
   transition: border 1s ease-out;
 }
 
@@ -235,8 +235,7 @@ section code {
   border: solid;
   border-radius: 0.5em;
   border-width: 0.05rem;
-  border text-decoration: none;
-  -webkit-transition: background-color 0.5s ease-out;
+  text-decoration: none;
   transition: background-color 0.5s ease-out;
 
 }
@@ -260,8 +259,8 @@ section code {
   color:white;
   border: solid;
   border-radius: 0.5em;
-  border text-decoration: none;
-  -webkit-transition: background-color 0.5s ease-out;
+   text-decoration: none;
+  /* -webkit-transition: background-color 0.5s ease-out; */
   transition: background-color 0.5s ease-out;
   margin-left: 20rem;
 }
@@ -369,7 +368,7 @@ outline-color: rgba(80,80,80,0.6);
   border-width: 0.075rem;
   border-color: grey;
   border-style: solid;
-  -webkit-transition: border-color 0.5s ease-out;
+  /* -webkit-transition: border-color 0.5s ease-out; */
   transition: border-color 0.5s ease-out;
 
 }
