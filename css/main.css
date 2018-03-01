@@ -193,14 +193,17 @@ section code {
 /* Styling for Submit Button */
 .submitbutton{
 
-  display: inline-block;
-  padding-left: 5rem;
+  /* display: inline-block; */
+  /* padding-left: 5rem; */
+  float: right;
   max-width: 5rem;
-  padding: 0.4rem;
+  margin: 1rem;
+  padding: 0.5rem;
   background-color: #9ad3f4;
   color:white;
   border: solid;
   border-radius: 0.5em;
+  border-width: 0.05rem;
   border text-decoration: none;
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
@@ -211,8 +214,8 @@ section code {
   color:#9ad3f4;
   background-color: white;
   border-color: #9ad3f4;
-  border-width: 0.025rem;
-  border: solid;
+  /* border-width: 0.05rem;
+  border: solid; */
 
 
 }
@@ -625,6 +628,10 @@ width: 100%
   margin : 1rem;
 }
 
+ol li{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 textarea{
   border: 1px;
   box-shadow: 1px 1px 4px rgba(90,90,90,0.5);
@@ -708,6 +715,10 @@ textarea:focus{
 }
 
 /* Footer */
+html,
+body {
+  height: 100%;
+}
 
 footer{
   background-color: white;

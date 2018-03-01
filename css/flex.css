@@ -213,6 +213,7 @@ justify-content: space-around;
   display: flex;
 }
 
+
 .flex-image{
   flex: 1 1 10rem;
   height: 100%;
@@ -236,6 +237,14 @@ justify-content: space-around;
 }
 .flex-box .mat-rental{
   justify-content: space-between;
+
+
+  }
+
+   .flex-image2{
+     flex: 1 1 10rem;
+     height: 100%;
+     max-width: 30rem;
 
   }
 
@@ -266,4 +275,10 @@ justify-content: space-around;
 .form-outer li{
   display: flex;
   flex-wrap: wrap;
+}
+
+.mat-reserve{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  max-width: 28rem;
 }
