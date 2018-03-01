@@ -10,17 +10,19 @@
 </head>
 <body>
 
-  <div class="header">
+  <header>
     <div class="logo-pair">
-    <a href="index.html"><img src="img/mat-col.svg" class="logo" alt="Mat Collective logo"></a>
-    <a href="index.html"><p class="logo-type">MATCOLLECTIVE</p></a>
+      <a href="index.html"><img src="img/mat-col.svg" class="logo" alt="Mat Collective logo"></a>
+      <a href="index.html"><p class="logo-type">MATCOLLECTIVE</p></a>
 
-    </div>    <nav class="main-nav">
+    </div>
+    <button id="menu-button" aria-hidden="true" class="hidden">MENU</button>
+    <nav id="main-nav" class="main-nav">
       <a class="nav-item" href="our-story.html"> Our Story</a>
       <a class="nav-item" href="mat-rentals.html"> Mat Rentals</a>
-      <div class="dropdown">
-        <button class="drop-button">
-          <a class="nav-item drop-button"> Yoga Classes <img src="img/drop-arrow.svg" alt="drop down menu" class="drop-arrow"></a>
+      <div class="dropdown nav-item ">
+        <button class="drop-button drop-button">
+          Yoga Classes <img src="img/drop-arrow.svg" alt="drop down menu" class="drop-arrow">
         </button>
         <div class="dropdown-content">
           <a href="yoga-classes.html" class="drop-item">What We Do</a>
@@ -32,21 +34,29 @@
       <a class="nav-item current-item" href="get-involved.html"> Get Involved</a>
       <a class="nav-item" href="contact-us.html"> Contact Us</a>
     </nav>
-  </div>
+  </header>
 
   <div class="page-content">
     <h1>Join the Collective</h1>
     <h2>We need your support to keep the free yoga flowing</h2>
 
+    <h3>Donations</h3>
+    <p>
+      We need your financial support as a registered Nonprofit! We offer hundreds of hours of free community programming with our free yoga classes. If you love Mat Collective Show your love by helping us maintain and expand what we offer
+    </p>
+    <div class="centered">
+      <button class="submitbutton">Donate</button>
+    </div>
+
     <div class="tabs">
-      <ul class="tab-links tab-buttons">
-        <li class="active"><a href="#tab1">Volunteer</a></li>
-        <li><a href="#tab2">Donate</a></li>
-        <li><a href="#tab3">Collaborate</a></li>
-        <li><a href="#tab4">Sponsor/Partner</a></li>
+      <ul class="tab-links tab-buttons" role="tablist">
+        <li class="active" role="tab"><a href="#Volunteer">Volunteer</a></li>
+        <!-- <li><a href="#tab2" role="tab">Donate</a></li> -->
+        <li><a href="#Partners" role="tab">Our Partners</a></li>
+        <li><a href="#Sponsor" role="tab">Sponsor</a></li>
       </ul>
       <div class="tab-content">
-        <div id="tab1" class="tab active">
+        <div id="Volunteer" class="tab active">
           <p>
             We run on Volunteer Power. Get a free yoga mat!
 
@@ -54,73 +64,111 @@
 
             Vancouver BC
 
-          <div class="volunteer-explanation">  We are always looking for volunteers to help us out. Whether you want to learn more about the yoga industry, gain experience with a start up or work on creating green products, we are here to help you out! Various volunteer positions are available, subject to your interests!
+            <div class="volunteer-explanation">  We are always looking for volunteers to help us out. Whether you want to learn more about the yoga industry, gain experience with a start up or work on creating green products, we are here to help you out! Various volunteer positions are available, subject to your interests!
 
 
-            <ul>
-              <li>Sample of volunteer activities:</li>
-              <li>taking and/or editing photos</li>
-              <li>writing and/or creating content for social media, our blog, our website</li>
-              <li>R&D for our green products</li>
-              <li>assisting in organizing and tidying our studio space</li>
-              <li>painting furniture</li>
-              <li>event planning and preparation</li>
-              <li>rolling, labeling and cleaning yoga mats</li>
-              <li>other activities not listed here</li>
-               </ul>
+              <ul>
+                <li>Sample of volunteer activities:</li>
+                <li>taking and/or editing photos</li>
+                <li>writing and/or creating content for social media, our blog, our website</li>
+                <li>R&D for our green products</li>
+                <li>assisting in organizing and tidying our studio space</li>
+                <li>painting furniture</li>
+                <li>event planning and preparation</li>
+                <li>rolling, labeling and cleaning yoga mats</li>
+                <li>other activities not listed here</li>
+              </ul>
 
-            Hours: 1 hour per shift minimum (flexible hours)
-            ​Location: Merakos Fieldhouse @ 95 E 32nd Ave, Vancouver BC
-            Apply By: no deadline
-            Start Date​: no set date
-            Compensation: none, option to work towards a free yoga mat
+              <p>  Hours: 1 hour per shift minimum (flexible hours)
+                ​Location: Merakos Fieldhouse @ 95 E 32nd Ave, Vancouver BC
+                Apply By: no deadline
+                Start Date​: no set date
+                Compensation: none, option to work towards a free yoga mat
 
-            ​To apply, email a brief description of why you are interested in volunteering with us to info@matcollective.com, stating the job title in the subject line.
+                ​To apply, email a brief description of why you are interested in volunteering with us to info@matcollective.com, stating the job title in the subject line.
 
-            Thank you to all applicants, we will contact you shortly after receiving your application!
-          </p>
-          </div>
-        </div>
-        <div id="tab2" class="tab">
-          <p>
-            We need your financial support as a Nonprofit! Donate here.
-          </p>
-        </div>
-        <div id="tab3" class="tab">
-          <p>
-            Join the collective and collaborate on projects! Contact us
-            <a class="in-text-link"href="contact-us.html">here!<a/>
-              Do you have creative ideas for the 2018 yoga season? Hit us up!
-            </p>
-          </div>
-
-          <div id="tab4" class="tab">
-            <p>
-              Sponsor a season of yoga classes! Contact us <a class="in-text-link"href="contact-us.html">here!<a/>
-                We're looking for a title sponsor for the 2018 yoga season. Interested? Check out our Sponsorship Package below, featuring five different ways you can help keep yoga free in Vancouver.
+                Thank you to all applicants, we will contact you shortly after receiving your application!
               </p>
             </div>
-
           </div>
+          <!-- <div id="tab2" class="tab">
+          <p>
+          We need your financial support as a Nonprofit! Donate here.
+        </p>
+      </div> -->
+      <div id="Partners" class="tab">
+        <h3>We love and rely on our Partners</h3>
+        <p>If you think you would be intrested in becoming a partner <a href="contact-us.html" class="in-text-link">contat us here</a></p>
+        <div class="centered">
+          <img src="img/parks-board-logo.png" class="logos flex-image" alt="Vancouver parks board logo">
         </div>
-
-
+        <div class="flex-box">
+          <img src="img/the-cooperators-logo.png" class="flex-image logos" alt="Cooperator group logo">
+          <img src="img/public-myth-logo.png" class="flex-image logos" alt="Public Myth logo">
+          <img src="img/merakos-logo.png" class="flex-image logos" alt="Merekos Feildhouse logo">
+          <img src="img/vancouver-foundation.png" class="flex-image logos" alt="Vancouver Foundation logo">
+          <img src="img/kits-logo.png" class="flex-image logos" alt="kits neighbourhood house logo">
+          <img src="img/lmnh-logo.png" class="flex-image logos" alt="little mountain neighbourhood house logo">
+        </div>
       </div>
 
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <div id="Sponsor" class="tab">
+        <p>
+          Sponsor a season of yoga classes! Contact us <a class="in-text-link" href="contact-us.html">Contact us here!</a>
+          We're looking for a title sponsor for the 2018 yoga season. Interested? Check out our Sponsorship Package below, featuring five different ways you can help keep yoga free in Vancouver.
+        </p>
+      </div>
 
-      <script>
+    </div>
+  </div>
 
-      jQuery(document).ready(function() {
-        jQuery('.tabs .tab-links a').on('click', function(e)  {
-          var currentAttrValue = jQuery(this).attr('href');
-          // Show/Hide Tabs
-          jQuery('.tabs ' + currentAttrValue).show().siblings().hide();
-          // Change/remove current tab to active
-          jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
-          e.preventDefault();
-        });
-      });
-    </script>
-  </body>
-  </html>
+
+</div>
+
+<footer>
+  <div id="footer-header">
+    <h3>Mat Collective Vancouver</h3>
+  </div>
+  <div class="footer-container">
+    <!-- <div class="footer-container">
+    <h3>Mat Collective Vancouver</h3>
+  </div> -->
+  <div class="footer-item">
+    <p>FIND US<br>
+      <a>95 E 32nd Ave<br>
+        ​Vancouver BC<br></a>
+      </div>
+      <div class="footer-item">
+        <p>DROP US A LINE</p>
+        <a href="mailto:info@matcollective.com">info@matcollective.com</a>
+      </div>
+      <div>
+        <div class="footer-item">
+          <p>FOLLOW US</p>
+          <a href="https://www.instagram.com/matcollectiveyvr/?hl=en" target="_blank" class="social-link"> <img src="img/insta-logo.png" alt="instgram logo" class="icon"><p>@matcollectiveyvr</p></a>
+
+          <!-- https://en.facebookbrand.com/assets/f-logo -->
+          <a href="https://www.facebook.com/matcollectiveyoga/" target="_blank" class="social-link"> <img src="img/facebook-logo.png" alt="facebook logo" class="icon"><p>@matcollectiveyoga</p></a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/dropdown.js"></script>
+  <script>
+
+  jQuery(document).ready(function() {
+    jQuery('.tabs .tab-links a').on('click', function(e)  {
+      var currentAttrValue = jQuery(this).attr('href');
+      // Show/Hide Tabs
+      jQuery('.tabs ' + currentAttrValue).show().siblings().hide();
+      // Change/remove current tab to active
+      jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
+      e.preventDefault();
+    });
+  });
+  </script>
+</body>
+</html>

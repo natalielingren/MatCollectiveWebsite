@@ -1,39 +1,92 @@
 
+/* Flex for meet the teem */
 @media (max-width:32rem) {
 
   .team-member{
     flex-wrap: wrap;
     flex: 1 1 25rem;
+    justify-content: center;
   }
 
   .bio-text{
   text-align: center;
-  max-width: 7rem;
+  /* max-width: 7rem; */
   }
 
-  .bio-img{
 
 }
 
-@media (min-width:45rem) {
+@media (max-width:40rem) {
   .bio-text{
-    max-width: 18.5rem;
+    max-width: 30rem;
   }
 }
 
-@media (max-width:70rem) {
+/* Flex for meet the teem */
+
+@media (max-width:48rem){
+.main-nav{
+  width: 100%;
+
+flex-wrap: wrap;
+}
+.nav-item{
+  flex: 1 1 10rem;
+text-align: center;
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+}
+.drop-button{
+  padding-bottom: 0;
+}
+}
+@media(max-width:30rem){
+  textarea{
+    width:15rem;
+
+  }
+}
+/* mobile sized */
+@media(max-width:24rem){
+  .nav-item{
+    text-align: right;
+  }
+  .tab-buttons li{
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 0.1rem;
+  }
+
+h1{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+h2{
+  font-size: 1rem;
+
+}
+
+h3{
+  font-size: 1rem;
+}
+
+}
+
+@media (min-width:40rem) {
   .bio-text{
-    max-width: 27rem;
+    max-width: 20rem;
   }
-
 }
 
-@media (max-width:34rem){
+
+@media (max-width:20rem){
   .logo-type{
     display:none;
   }
+
 }
-@media (min-width:34rem) {
+@media (min-width:48rem) {
 
 
 .main-nav{
@@ -44,8 +97,19 @@
 }
 
 
-.header{
+header{
   justify-content:space-between;
+}
+
+.footer-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-item{
+  flex: 1 1 4rem;
+  padding:0;
 }
 
 .logo{
@@ -131,6 +195,11 @@ justify-content: space-around;
   .flex-box2 p{
     margin: 0;
   }
+
+  .flex-box-what-we-do{
+  display:
+  }
+
 .flex-item{
   flex: 1 1 25rem;
 }
@@ -144,12 +213,17 @@ justify-content: space-around;
   display: flex;
 }
 
+
 .flex-image{
   flex: 1 1 10rem;
   height: 100%;
   max-width:40rem;
 }
 
+.logos{
+  max-width: 10rem;
+  padding: 1rem;
+}
 .flex-text{
   flex: 1 1 17rem;
   max-width: 35rem;
@@ -164,11 +238,31 @@ justify-content: space-around;
 .flex-box .mat-rental{
   justify-content: space-between;
 
+
+  }
+
+   .flex-image2{
+     flex: 1 1 10rem;
+     height: 100%;
+     max-width: 30rem;
+
   }
 
   .mat-price{
     flex:1 1 15rem;
     padding: 1rem;
+  }
+
+  .mats{
+    flex: 1 1 15rem;
+
+  }
+  .mats img{
+    transition: 0.7s;
+  }
+
+  .mats:focus img,.mats:hover img{
+    filter: opacity(0.5);
   }
 
   .flex-text h3{
@@ -177,3 +271,14 @@ justify-content: space-around;
   .flex-text p{
     margin-top: 0;
   }
+
+.form-outer li{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mat-reserve{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  max-width: 28rem;
+}

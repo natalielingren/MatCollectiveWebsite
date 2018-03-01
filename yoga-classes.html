@@ -10,50 +10,78 @@
 </head>
 <body>
 
-  <div class="header">
+  <header>
     <div class="logo-pair">
-  <a href="index.html"><img src="img/mat-col.svg" class="logo" alt="Mat Collective logo"></a>
-  <a href="index.html"><p class="logo-type">MATCOLLECTIVE</p></a>
+      <a href="index.html"><img src="img/mat-col.svg" class="logo" alt="Mat Collective logo"></a>
+      <a href="index.html"><p class="logo-type">MATCOLLECTIVE</p></a>
 
-  </div>
-  <nav class="main-nav">
-    <a class="nav-item" href="our-story.html"> Our Story</a>
-    <a class="nav-item" href="mat-rentals.html"> Mat Rentals</a>
-    <div class="dropdown">
-      <button class="drop-button">
-        <a class="nav-item drop-button current-item"> Yoga Classes <img src="img/drop-arrow.svg" alt="drop down menu" class="drop-arrow"></a>
-      </button>
-      <div class="dropdown-content">
-        <a href="yoga-classes.html" class="drop-item current-item">What We Do</a>
-    <a href="class-information.html" class="drop-item">Class Information</a>
-    <a href="class-schedules.html" class="drop-item">Class Schedules</a>
+    </div>
+    <button id="menu-button" aria-hidden="true" class="hidden">MENU</button>
+    <nav id="main-nav" class="main-nav">
+      <a class="nav-item" href="our-story.html"> Our Story</a>
+      <a class="nav-item" href="mat-rentals.html"> Mat Rentals</a>
+      <div class="dropdown nav-item ">
+      <button class="drop-button drop-button current-item">
+          Yoga Classes <img src="img/drop-arrow.svg" alt="drop down menu" class="drop-arrow">
+        </button>
+        <div class="dropdown-content">
+          <a href="yoga-classes.html" class="drop-item current-item">What We Do</a>
+          <a href="class-information.html" class="drop-item">Class Information</a>
+          <a href="class-schedules.html" class="drop-item">Class Schedules</a>
 
-  </div>
-  </div>
-    <a class="nav-item" href="get-involved.html"> Get Involved</a>
-    <a class="nav-item" href="contact-us.html"> Contact Us</a>
-  </nav>
-</div>
+        </div>
+      </div>
+      <a class="nav-item" href="get-involved.html"> Get Involved</a>
+      <a class="nav-item" href="contact-us.html"> Contact Us</a>
+    </nav>
+  </header>
 
-<div class="page-content">
+  <div class="page-content">
 
-<h1>Come join us for free yoga!</h1>
-<h2>Be a part of Vancouver's largest outdoor yoga classes</h2>
+    <h1>Come join us for free yoga!</h1>
+    <h2>Be a part of Vancouver's largest outdoor yoga classes</h2>
 
-<div class="flex-box">
+    <div class="flex-box-what-we-do">
+      <div class="flex-text">
 
+          <p>
+            Why free Classes? Because we are truly captivated by our students. Everyone is welcome. Many individuals have shared their stories with us when they come to our yoga classes. Whether it is because they are strapped for cash, going through a tough divorce, or can't afford physiotherapy and are living out of their car, <em>we believe access to fitness classes needs to be accessible to everyone no matter their income bracket. </em> </p>
 
+        </div>
 
-  <div class="flex-text">
-    <p>
-Mat Collective was founded by existing members of Vancouver's already vibrant yoga community. The two co-founders, a passionate yogi/math nerd, and a city planner turned serial entrepreneur, saw a gap in the city's ability to deal with unwanted yoga mats and provide accessible yoga programs.</p>
-<p>
-Why free? Because we are truly captivated by our students. Many individuals have shared their stories with us when they come to our yoga classes. Whether it is because they are strapped for cash, going through a tough divorce, or can't afford physiotherapy and are living out of their car, we believe access to fitness classes need to be accessible to everyone no matter their income bracket. Also in the mix of yogis are long term residents and newcomers to the city or country. Everyone is welcome. We share individual stories, along with stories from our amazing volunteers on our social media accounts under #yogisofvancouver.
+        <img class="flex-image" src="img/img1.jpg" alt="a yoga class">
+      </div>
+    </div>
+      <footer>
+        <div id="footer-header">
+          <h3>Mat Collective Vancouver</h3>
+        </div>
+            <div class="footer-container">
+              <!-- <div class="footer-container">
+              <h3>Mat Collective Vancouver</h3>
+            </div> -->
+            <div class="footer-item">
+              <p>FIND US<br>
+                <a>95 E 32nd Ave<br>
+                  ​Vancouver BC<br></a>
+                </div>
+                <div class="footer-item">
+                  <p>DROP US A LINE</p>
+                  <a href="mailto:info@matcollective.com">info@matcollective.com</a>
+                </div>
+                <div>
+                  <div class="footer-item">
+                    <p>FOLLOW US</p>
+                    <a href="https://www.instagram.com/matcollectiveyvr/?hl=en" target="_blank" class="social-link"> <img src="img/insta-logo.png" alt="instgram logo" class="icon"><p>@matcollectiveyvr</p></a>
 
-  </p>
-</div>
+                    <!-- https://en.facebookbrand.com/assets/f-logo -->
+                    <a href="https://www.facebook.com/matcollectiveyoga/" target="_blank" class="social-link"> <img src="img/facebook-logo.png" alt="facebook logo" class="icon"><p>@matcollectiveyoga</p></a>
+                  </div>
+                </div>
+              </div>
 
-  <img class="flex-image" src="img/img1.jpg" alt="a yoga class">
-</div>
-</body>
-</html>
+            </footer>
+              <script src="js/dropdown.js"></script>
+          </body>
+
+          </html>

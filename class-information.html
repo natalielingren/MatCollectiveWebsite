@@ -9,18 +9,19 @@
   <title>Mat Collective Class Info</title>
 </head>
 <body>
-  <div class="header">
+  <header>
     <div class="logo-pair">
     <a href="index.html"><img src="img/mat-col.svg" class="logo" alt="Mat Collective logo"></a>
     <a href="index.html"><p class="logo-type">MATCOLLECTIVE</p></a>
 
     </div>
-    <nav class="main-nav">
+    <button id="menu-button" aria-hidden="true" class="hidden">MENU</button>
+    <nav id="main-nav" class="main-nav">
     <a class="nav-item" href="our-story.html"> Our Story</a>
     <a class="nav-item" href="mat-rentals.html"> Mat Rentals</a>
-    <div class="dropdown">
-      <button class="drop-button">
-        <a class="nav-item drop-button current-item"> Yoga Classes <img src="img/drop-arrow.svg" alt="drop down menu" class="drop-arrow"></a>
+    <div class="dropdown nav-item ">
+    <button class="drop-button drop-button current-item">
+        Yoga Classes <img src="img/drop-arrow.svg" alt="drop down menu" class="drop-arrow">
       </button>
       <div class="dropdown-content">
         <a href="yoga-classes.html" class="drop-item">What We Do</a>
@@ -31,15 +32,17 @@
   </div>
     <a class="nav-item" href="get-involved.html"> Get Involved</a>
     <a class="nav-item" href="contact-us.html"> Contact Us</a>
-  </div>
+  </nav>
+  </header>
+
   <div class="page-content">
     <h1>Yoga class information</h1>
 
     <div class="tabs">
-      <ul class="tab-links tab-buttons">
-        <li class="active"><a href="#tab1">Class Types</a></li>
-        <li><a href="#tab2">Locations</a></li>
-        <li><a href="#tab3">Find a Teacher</a></li>
+      <ul class="tab-links tab-buttons" role="tablist">
+        <li class="active" role="tab"><a href="#tab1">Class Types</a></li>
+        <li><a href="#tab2" role="tab">Locations</a></li>
+        <li><a href="#tab3" role="tab">Find a Teacher</a></li>
       </ul>
       <div class="tab-content">
         <div id="tab1" class="tab active">
@@ -80,7 +83,7 @@
             <div class="flex-item">
           <h3>Riley Park</h3>
           <p>
-            The Main Street location is inside Riley Park, which is on just off of Quebec Street & E 32nd Ave, across from Nat Bailey Stadium. Our head office is a little house inside the park. Known as the Merakos Fieldhouse, it is both co-working space and a flexible studio. Classes are held both indoors and outdoors at this location. The outdoor classes are held on the North Side of the park. They are in a sunny patch of grass half way between the new playground (with the colorful fence) and the community garden. Click here to view an additional map of the outdoor yoga location at Riley Park.
+            The Main Street location is inside Riley Park, which is on just off of Quebec Street & E 32nd Ave, across from Nat Bailey Stadium. Our head office is a little house inside the park. Known as the Merakos Fieldhouse, it is both co-working space and a flexible studio. Classes are held both indoors and outdoors at this location. The outdoor classes are held on the North Side of the park. They are in a sunny patch of grass half way between the new playground (with the colorful fence) and the community garden. 
           </p>
         </div>
         <div class="flex-item">
@@ -102,12 +105,42 @@
         <div id="tab3" class="tab">
           <h3>Find a Teacher</h3>
           <p>
-            Take a look at our Meet the Team tab to find your teacher! Click <a class="in-text-link" href="our-story.html">here!<a/>.
+            Take a look at our Meet the Team tab to find your teacher! <a class="in-text-link" href="our-story.html">Click here to find a teacher!</a>.
           </p>
         </div>
       </div>
     </div>
 </div>
+
+<footer>
+  <div id="footer-header">
+  <h3>Mat Collective Vancouver</h3>
+</div>
+  <div class="footer-container">
+    <!-- <div class="footer-container">
+    <h3>Mat Collective Vancouver</h3>
+  </div> -->
+  <div class="footer-item">
+    <p>FIND US<br>
+      <a>95 E 32nd Ave<br>
+        ​Vancouver BC<br></a>
+      </div>
+      <div class="footer-item">
+      <p>DROP US A LINE</p>
+      <a href="mailto:info@matcollective.com">info@matcollective.com</a>
+    </div>
+      <div>
+        <div class="footer-item">
+          <p>FOLLOW US</p>
+          <a href="https://www.instagram.com/matcollectiveyvr/?hl=en" target="_blank" class="social-link"> <img src="img/insta-logo.png" alt="instgram logo" class="icon"><p>@matcollectiveyvr</p></a>
+
+          <!-- https://en.facebookbrand.com/assets/f-logo -->
+          <a href="https://www.facebook.com/matcollectiveyoga/" target="_blank" class="social-link"> <img src="img/facebook-logo.png" alt="facebook logo" class="icon"><p>@matcollectiveyoga</p></a>
+        </div>
+      </div>
+    </div>
+
+    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -124,57 +157,11 @@
     });
     });
     </script>
-<!--
-
-    <main>
-
-      <input id="tab1" type="radio" name="tabs" checked>
-      <label for="tab1">Class Types</label>
-
-      <input id="tab2" type="radio" name="tabs">
-      <label for="tab2">Locations</label>
-
-      <input id="tab3" type="radio" name="tabs">
-      <label for="tab3">Find a Teacher</label>
-
-      <section id="content1" class="tab-section">
-        <h3>Class type 1</h3>
-        <p>
-          This is class type 1.
-          Gomukhasana vimanasana crab pose big toe pose a thin, round flat bread. arjuna and his five brothers, the heroes of the mahabharata. chandra goddess of truth. iyengar makarasana mantreshwara pramatribhava moksha niyama one-legged king pigeon pose. practice of contracting the anal sphincter. purpose of the consciousness, of man's existence- the four basic needs or desires, arth, kaama, dharma, moksha. represents a mantra in meditation; literally means, 'i am that'.
-        </p>
-
-        <h3>Class type 2</h3>
-        <p>
-          This is class type 2.
-          Gomukhasana vimanasana crab pose big toe pose a thin, round flat bread. arjuna and his five brothers, the heroes of the mahabharata. chandra goddess of truth. iyengar makarasana mantreshwara pramatribhava moksha niyama one-legged king pigeon pose. practice of contracting the anal sphincter. purpose of the consciousness, of man's existence- the four basic needs or desires, arth, kaama, dharma, moksha. represents a mantra in meditation; literally means, 'i am that'.
-        </p>
-
-        <h3>Class type 3</h3>
-        <p>
-          This is class type 3.
-          Gomukhasana vimanasana crab pose big toe pose a thin, round flat bread. arjuna and his five brothers, the heroes of the mahabharata. chandra goddess of truth. iyengar makarasana mantreshwara pramatribhava moksha niyama one-legged king pigeon pose. practice of contracting the anal sphincter. purpose of the consciousness, of man's existence- the four basic needs or desires, arth, kaama, dharma, moksha. represents a mantra in meditation; literally means, 'i am that'.
-        </p>
-
-      </section>
-
-      <section id="content2" class="tab-section">
-        <p>
-          Here are our yoga mat locations!
-        </p>
-      </section>
-
-      <section id="content3" class="tab-section">
-        <p>
-          This is our teaching team! Feel free to contact anyone <a class="in-text-link"href="contact-us.html">here!<a/>
-        </p>
-
-      </section>
-    </main>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/dropdown.js"></script>
 <script>
 
 jQuery(document).ready(function() {

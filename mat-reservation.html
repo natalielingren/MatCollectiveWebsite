@@ -15,12 +15,12 @@
     <a href="index.html"><p class="logo-type">MATCOLLECTIVE</p></a>
 
     </div>
-  <button id="menu-button" aria-hidden="true" class="hidden">MENU</button>
+    <button id="menu-button" aria-hidden="true" class="hidden">MENU</button>
   <nav id="main-nav" class="main-nav">
     <a class="nav-item" href="our-story.html"> Our Story</a>
-    <a class="nav-item" href="mat-rentals.html"> Mat Rentals</a>
+    <a class="nav-item current-item" href="mat-rentals.html"> Mat Rentals</a>
     <div class="dropdown nav-item ">
-        <button class="drop-button drop-button current-item">
+        <button class="drop-button drop-button">
         Yoga Classes <img src="img/drop-arrow.svg" alt="drop down menu" class="drop-arrow">
       </button>
       <div class="dropdown-content">
@@ -36,15 +36,50 @@
 </header>
 <div class="page-content">
 
-  <h1>Find your class</h1>
-    <h2>Click on a date for more information</h2>
+  <h1>Reserve a Mat</h1>
+    <h2>Fill out the information and pick it up!</h2>
 
 
-<iframe src="https://calendar.google.com/calendar/embed?src=23jvb3hd3rve2u1ec442s423u4%40group.calendar.google.com&ctz=America%2FVancouver" style="border: 0" class="calendar" frameborder="0" scrolling="no"></iframe>
+    <form id="reservation-form">
+      <div class="form-outer">
+        <div>
+          <label for="first-name">First Name</label>
+          <input type="text" id="first-name" placeholder="Enter your first name here">
+        </div>
+        <div>
+          <label for="last-name">Last Name</label>
+          <input type="text" id="last-name" placeholder="Enter your last name here">
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter your email here">
+        </div>
+        <div>
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" placeholder="Enter your phone here">
+        </div>
 
-    <!-- <div class="Calendar">
-      <img src="img/Calendar.png" alt= "A placeholder for our Calendar">
-    </div> -->
+          <label for="message">Message</label>
+          <div class="mat-reserve">
+          <textarea  id="message" placeholder="Enter your message here"></textarea>
+
+          <button class="submitbutton" type="submit">Submit</button>
+      </div>    
+      </div>
+    </form>
+
+
+    <!-- <form id="reservation-form">
+      <input type="text" id="First-Name" name="First-Name">
+      <label for="First-Name">
+        <span>First Name </span></label>
+     <input type="text" id="Last-Name" name="Last-Name">
+       <label for="Last-Name"> <span>Last Name</span></label>
+       <input type="date" id="Choose-Date" name="Choose-Date">
+       <label for="Choose-Date"> <span>Choose Date</span></label>
+
+
+    </form> -->
 
 </div>
 <footer>
