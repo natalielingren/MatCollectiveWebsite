@@ -3,12 +3,16 @@ body{
   /* background-image: url("http://www.sfu.ca/~mischap/pattern-background.png");
   background-repeat: repeat;
   background-size: 15rem 15rem; */
-  background-color: #e3eff8;
+
   padding: 0;
+  background-color: #e3eff8;
 }
 .page-content{
+
+
   max-width: 65rem;
   margin: auto;
+  min-height: 60%;
 }
 
 /* Tab structure learned from http://inspirationalpixels.com/tutorials/creating-tabs-with-html-css-and-jquery */
@@ -363,7 +367,7 @@ h1{
   font-weight: 500;
   color: #444444;
   margin-bottom: 0;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.02rem;
 
 
 }
@@ -694,6 +698,15 @@ textarea:focus{
   color: white;
   transition: color 0.5s;
 }
+.unstyled-link-grey{
+  color: rgb(50,50,50);
+  transition: color 0.5s;
+}
+
+.unstyled-link-grey p{
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
 .unstyled-link:hover,.unstyled-link:focus{
   color: black;
 }
@@ -772,4 +785,8 @@ footer h3{
   height: 600px;
   width: 100%;
 
+}
+
+select{
+  padding-top: 1rem;
 }
