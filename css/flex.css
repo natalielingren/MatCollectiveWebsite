@@ -225,6 +225,18 @@ justify-content: space-around;
     padding: 1rem;
   }
 
+  .mats{
+    flex: 1 1 15rem;
+
+  }
+  .mats img{
+    transition: 0.7s;
+  }
+
+  .mats:focus img,.mats:hover img{
+    filter: opacity(0.5);
+  }
+
   .flex-text h3{
     margin-top: 0;
   }

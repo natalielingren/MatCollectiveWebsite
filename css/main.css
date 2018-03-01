@@ -228,6 +228,7 @@ section code {
 
 .home-banner-img{
   width: 100%;
+
 }
 .home-banner{
   display: block;
@@ -245,8 +246,11 @@ section code {
   transition: 0.4s;
 }
 
-.up-next:hover,.up-next:focus{
-  background-color:rgba(255,255,255,0.1);
+.class-time:hover,.class-time:focus{
+outline-style: solid;
+outline-width: 0.05rem;
+outline-color: rgba(80,80,80,0.6);
+
 }
 
 .up-next-label{
@@ -341,6 +345,7 @@ h1{
   font-weight: 500;
   color: #444444;
   margin-bottom: 0;
+  letter-spacing: 0.1rem;
 
 
 }
@@ -674,6 +679,10 @@ textarea:focus{
 .social-link p{
   padding-left: 1rem;
   margin-bottom: 1rem;
+}
+
+ .centered button{
+  margin-bottom: 3rem;
 }
 .social-link:hover,.social-link:focus{
 
