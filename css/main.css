@@ -812,3 +812,8 @@ footer h3{
 select{
   padding-top: 1rem;
 }
+
+code{
+  max-width: 20rem;
+  background-color: white;
+}
