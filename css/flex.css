@@ -203,6 +203,10 @@ justify-content: space-around;
 .flex-item{
   flex: 1 1 25rem;
 }
+.flex-item-social{
+  flex: 1 1 15rem;
+}
+
 .flex-item-wwd{
   padding: 1rem;
   flex: 1 1 15rem;
@@ -232,8 +236,9 @@ justify-content: space-around;
 }
 
 .tab-text{
-  max-width: 30rem;
-  margin:auto;
+  padding-left: 2rem;
+  max-width: 33rem;
+
 }
 .flex-box .mat-rental{
   justify-content: space-between;
