@@ -244,12 +244,14 @@ justify-content: space-around;
   justify-content: space-between;
 
 
+
   }
 
    .flex-image2{
      flex: 1 1 10rem;
      height: 100%;
      max-width: 30rem;
+     padding-bottom: 2rem;
 
   }
 
