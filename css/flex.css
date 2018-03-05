@@ -242,7 +242,7 @@ justify-content: space-around;
 }
 .flex-box .mat-rental{
   justify-content: space-between;
-  background-color: white;
+  /* background-color: white; */
 
 
   }
@@ -253,7 +253,7 @@ justify-content: space-around;
      flex: 1 1 10rem;
      height: 100%;
      max-width: 30rem;
-     margin: auto;
+     padding: 1rem;
 
   }
 
@@ -266,6 +266,7 @@ justify-content: space-around;
     flex: 1 1 15rem;
     margin-bottom: 4rem;
     background-color: white;
+    border-radius: 1rem;
   }
   .mats img{
     transition: 0.7s;
