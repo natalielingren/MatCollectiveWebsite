@@ -56,10 +56,11 @@ li.active a, li.active a:hover {
 .sideways{
 /* position: absolute; */
 background-color:rgba(255,255,255,0.5);
-border-radius: 0.75rem;
+border-radius: 1.75rem;
 /* border: 0.05rem solid rgb(100, 100, 100); */
 overflow-x: scroll;
 overflow-y: hidden;
+box-shadow: 3px 4px 12px 0px rgba(80,80,80,0.1);
 
 width: 100%;
 height: 100%;
@@ -237,9 +238,11 @@ section code {
 }
 
 .submitbutton:hover, .submitbutton:focus{
-  color:#9ad3f4;
+  /* color:#9ad3f4; */
+  color: black;
   background-color: white;
   border-color: #9ad3f4;
+
   /* border-width: 0.05rem;
   border: solid; */
 
@@ -278,11 +281,11 @@ section code {
 .up-next{
   margin-top: 1rem;
   background-color: white;
-  border-radius: 0.75rem;
+  /* border-radius: 0.75rem; */
   padding-left: 1rem;
-  border-style: solid;
+  /* border-style: solid;
   border-color: rgb(180,180,180);
-  border-width: 0.1rem;
+  border-width: 0.1rem; */
   transition: 0.4s;
 }
 
@@ -302,9 +305,10 @@ outline-color: rgba(80,80,80,0.6);
 }
 
 .class-time{
-  background-color: #e3eff8;
-  padding: 0.75rem;
-  border-radius: 0.25rem;
+  background-color: #ffdb75;
+  padding: 0.75rem 1.75rem 0.75rem 1.75rem;
+
+  /* border-radius: 0.25rem; */
   margin-bottom: .25rem;
   width: 10rem;
 
@@ -322,6 +326,8 @@ outline-color: rgba(80,80,80,0.6);
 }
 .up-next-title{
   margin-bottom: 0;
+  padding-top: 1rem;
+  padding-left: 1rem;
 }
 
 
@@ -409,6 +415,7 @@ h3{
 
 p{
   font-weight: 300;
+  line-height: 1.4rem;
 }
 
 /* Styling for Bulleted Lists */
@@ -419,6 +426,12 @@ p{
 
 ul {
   list-style-type:circle;
+}
+
+li{
+  padding-top:0.25rem;
+  padding-bottom:0.25rem;
+  line-height: 1.2rem;
 }
 
 /* Styling for Numbered Lists */
@@ -552,8 +565,7 @@ header{
   justify-content:space-between;
   flex-wrap: wrap;
   background-color: rgba(255,255,255,0.7);
-
-
+  border-bottom: .00975rem solid rgba(210,210,210,10.1);
 }
 .logo{
   max-width: 4.5rem;
@@ -818,6 +830,9 @@ code{
 .prices{
   background-color: rgba(255,255,255,0.8);
   border-radius: 1rem;
+  box-shadow: 3px 4px 12px 0px rgba(80,80,80,0.1);
+  margin-bottom: 3rem;
+}
 }
 
 iframe{

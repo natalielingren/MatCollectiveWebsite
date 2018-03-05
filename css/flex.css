@@ -150,7 +150,7 @@ display: flex;
 }
 .up-next{
   margin-top: 0;
-  margin-left: 0.5rem;
+  /* margin-left: 0.5rem; */
   width: 30%;
 
 }
@@ -242,10 +242,12 @@ justify-content: space-around;
 }
 .flex-box .mat-rental{
   justify-content: space-between;
-
+  background-color: white;
 
 
   }
+
+
 
    .flex-image2{
      flex: 1 1 10rem;
@@ -262,7 +264,8 @@ justify-content: space-around;
 
   .mats{
     flex: 1 1 15rem;
-
+    margin-bottom: 4rem;
+    background-color: white;
   }
   .mats img{
     transition: 0.7s;
@@ -271,9 +274,14 @@ justify-content: space-around;
   .mats:focus img,.mats:hover img{
     filter: opacity(0.5);
   }
+  .mats h3{
+    padding-left: 1rem;
+  }
 
   .flex-text h3{
     margin-top: 0;
+    padding-top: 1rem;
+    margin-bottom: -1rem;
   }
   .flex-text p{
     margin-top: 0;
