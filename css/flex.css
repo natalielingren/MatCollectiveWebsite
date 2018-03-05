@@ -253,7 +253,7 @@ justify-content: space-around;
      flex: 1 1 10rem;
      height: 100%;
      max-width: 30rem;
-     padding-bottom: 2rem;
+     margin: auto;
 
   }
 
@@ -269,6 +269,7 @@ justify-content: space-around;
   }
   .mats img{
     transition: 0.7s;
+    margin: auto;
   }
 
   .mats:focus img,.mats:hover img{
