@@ -271,7 +271,7 @@ section code {
 
 .home-banner-img{
   width: 100%;
-
+  margin: auto;
 }
 .home-banner{
   display: block;
@@ -428,7 +428,7 @@ ul {
   list-style-type:circle;
 }
 
-li{
+.mat-price li{
   padding-top:0.25rem;
   padding-bottom:0.25rem;
   line-height: 1.2rem;
@@ -820,6 +820,10 @@ footer h3{
 
 select{
   padding-top: 1rem;
+}
+
+.donate{
+  padding: 1rem 1rem 0 1rem;
 }
 
 code{
